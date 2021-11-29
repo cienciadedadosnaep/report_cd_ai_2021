@@ -1,15 +1,12 @@
-book_filename: "ciencia_de_dados"
+book_filename: "relatorio_cd_ai_2021"
 delete_merged_file: true
 language:
-  label:
-     fig: 'Figura '
-     tab: 'Tabela '
-     eq: 'Equação '
-     thm: 'Teorema '
-     prp: 'Proposição '
-     def: 'Definição '
-     exm: 'Exemplo '
-     exr: 'Exercício '
-     solution: 'Solução '
   ui:
-    chapter_name: "Capítulo "
+    chapter_name: ""
+  label:
+    fig: 'Figura '
+    tab: 'Tabela '
+    eq: 'Equação '
+    exm: 'Exemplo '
+    qdr: 'Quadro '
+output_dir: "docs"
