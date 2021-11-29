@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 1 Relatório - Ciência de Dados | Relatório de Ciência de Dados e Inteligência Artificial</title>
+  <meta name="description" content="E-book em desenvolvimento." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 1 Relatório - Ciência de Dados | Relatório de Ciência de Dados e Inteligência Artificial" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://bookdown.org/cienciadedadosnaep/ciencia_de_dados/" />
+  <meta property="og:image" content="https://bookdown.org/cienciadedadosnaep/ciencia_de_dados//logo/logotipo_transparente_baixa.png" />
+  <meta property="og:description" content="E-book em desenvolvimento." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 1 Relatório - Ciência de Dados | Relatório de Ciência de Dados e Inteligência Artificial" />
+  
+  <meta name="twitter:description" content="E-book em desenvolvimento." />
+  <meta name="twitter:image" content="https://bookdown.org/cienciadedadosnaep/ciencia_de_dados//logo/logotipo_transparente_baixa.png" />
+
+<meta name="author" content="Karla Patrícia Oliveira Esquerre" />
+<meta name="author" content="Janaina Souza de Souza" />
+<meta name="author" content="Júlia Carolina Bijos" />
+<meta name="author" content="Sandra Pinheiro" />
+<meta name="author" content="Robson Wilson Silva Pessoa" />
+<meta name="author" content="Bruna Climaco" />
+<meta name="author" content="Luís Gustavo" />
+<meta name="author" content="Laio Luís" />
+<meta name="author" content="Nicole Príncipe" />
+
+
+<meta name="date" content="2021-11-29" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="./"><img src="logo/logotipo_transparente_baixa.png", width="250" height="250"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a></li>
+<li class="chapter" data-level="1" data-path="cap1.html"><a href="cap1.html"><i class="fa fa-check"></i><b>1</b> Relatório - Ciência de Dados</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="cap1.html"><a href="cap1.html#introdução"><i class="fa fa-check"></i><b>1.1</b> Introdução</a></li>
+<li class="chapter" data-level="1.2" data-path="cap1.html"><a href="cap1.html#introdução-à-ciência-de-dados-turma-1"><i class="fa fa-check"></i><b>1.2</b> Introdução à Ciência de Dados (Turma 1)</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro"><i class="fa fa-check"></i><b>1.2.1</b> Relato do encontro</a></li>
+<li class="chapter" data-level="1.2.2" data-path="cap1.html"><a href="cap1.html#proposta-de-atividade-e-reencontro"><i class="fa fa-check"></i><b>1.2.2</b> Proposta de atividade e reencontro</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="cap1.html"><a href="cap1.html#encontro-sobre-coleta-de-dados-turma-1"><i class="fa fa-check"></i><b>1.3</b> Encontro sobre Coleta de Dados (Turma 1)</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-1"><i class="fa fa-check"></i><b>1.3.1</b> Relato do encontro</a></li>
+<li class="chapter" data-level="1.3.2" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros"><i class="fa fa-check"></i><b>1.3.2</b> Proposta de atividades e reencontros</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="cap1.html"><a href="cap1.html#reencontro-sobre-base-dos-dados-e-encontro-de-visualização-de-dados-turma-1"><i class="fa fa-check"></i><b>1.4</b> Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1)</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="cap1.html"><a href="cap1.html#relato-do-reencontro"><i class="fa fa-check"></i><b>1.4.1</b> Relato do reencontro</a></li>
+<li class="chapter" data-level="1.4.2" data-path="cap1.html"><a href="cap1.html#encontro-de-visualização-de-dados"><i class="fa fa-check"></i><b>1.4.2</b> Encontro de visualização de dados</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="cap1.html"><a href="cap1.html#reencontro-de-visualização-de-dados-turma-1"><i class="fa fa-check"></i><b>1.5</b> Reencontro de visualização de dados (Turma 1)</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros-1"><i class="fa fa-check"></i><b>1.5.1</b> Proposta de atividades e reencontros</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="cap1.html"><a href="cap1.html#capoeira-esporte-e-liberdade.-correlação-e-causalidade-turma-1"><i class="fa fa-check"></i><b>1.6</b> Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1)</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros-2"><i class="fa fa-check"></i><b>1.6.1</b> Proposta de atividades e reencontros</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="cap1.html"><a href="cap1.html#média-e-mediana-e-segurança-pública-turma-1"><i class="fa fa-check"></i><b>1.7</b> Média e Mediana e Segurança Pública (Turma 1)</a></li>
+<li class="chapter" data-level="1.8" data-path="cap1.html"><a href="cap1.html#pesquisa-amostral---transporte-turma-1"><i class="fa fa-check"></i><b>1.8</b> Pesquisa Amostral - Transporte (Turma 1)</a></li>
+<li class="chapter" data-level="1.9" data-path="cap1.html"><a href="cap1.html#saúde-e-probabilidade---pesquisa-nacional-de-saúde-do-escolar-pense-turma-1"><i class="fa fa-check"></i><b>1.9</b> Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1)</a></li>
+<li class="chapter" data-level="1.10" data-path="cap1.html"><a href="cap1.html#introdução-à-ciência-de-dados-turma-2"><i class="fa fa-check"></i><b>1.10</b> Introdução à Ciência de Dados (Turma 2)</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-2"><i class="fa fa-check"></i><b>1.10.1</b> Relato do encontro</a></li>
+</ul></li>
+<li class="chapter" data-level="1.11" data-path="cap1.html"><a href="cap1.html#relatório"><i class="fa fa-check"></i><b>1.11</b> Relatório</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="http://reconhecendosalvador.ufba.br/"><img src="logo/03_Padrao_Fundo_Transparente.png", width="125" height="40"></a></li>
+<li><a href="http://gamma.ufba.br/"><img src="logo/Logo_Gamma.png", width="125" height="40"></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Relatório de Ciência de Dados e Inteligência Artificial</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="cap1" class="section level1" number="1">
+<h1><span class="header-section-number">Capítulo 1</span> Relatório - Ciência de Dados</h1>
+<div id="introdução" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Introdução</h2>
+<p>A disciplina de introdução à ciência de dados
+é constituída de um propósito transformador do
+estudante no qual ele é aproximado do universo
+dos dados de maneira a se apropriar dos principais
+dados, sistemas de informação e tomada de decisões
+no contexto local de um grupo de discentes,
+docentes, comunidade escolar e de bairro. Coordenada
+por uma equipe da universidade e operada
+num contexto à distância, são revelados
+neste texto as principais estratégias
+e insights resultados da promoção do encontro destes
+vários atores. Esta disciplina não é uma ilha,
+em paralelo a sua execução são realizadas
+atividades de protagonismo racial, social e de gênero,
+práticas investigativas e inteligência artificial.
+Estes temas tão atuais, tangênciam os propósitos
+das ciências de dados sendo esta um mecanismos
+de aperfeiçoamento das outras ciências. Uma rede
+de colaboradores palestrantes também
+enriqueceram o repertório de todos os atores que
+participaram o projeto tornando a
+execução da disciplian de ciência de dados uma atividade
+punjante e transformadora do contexto social ao
+qual pertencem estes jovens cientistas.</p>
+</div>
+<div id="introdução-à-ciência-de-dados-turma-1" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Introdução à Ciência de Dados (Turma 1)</h2>
+<div id="relato-do-encontro" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Relato do encontro</h3>
+<p>Especialmente para o encontro de <a href="https://youtu.be/FsfJ-ERe3rI">Introdução à Ciência de Dados</a>
+realizado em 19/02/2021 foram notadas as seguintes observações:</p>
+<ul>
+<li>Os encontros foram realizados de forma síncrona.</li>
+<li>É importante ressaltar que os jovens cientistas participantes deste encontro ingressaram
+no projeto Ciências de Dados desde de 2019. Enquanto a equipe de facilitadores é
+composta de pessoas que ingressaram em 2019 e outra que iniciou em 2020.</li>
+<li>Todos os integrantes são formados em engenharia e um integrante no nível de graduação
+também em engenharia.</li>
+<li>Antes dos encontros de Ciência de Dados (ECD) os jovens cientistas
+foram estimulados à leitura prévia do ebook<br />
+<a href="https://bookdown.org/cienciadedadosnaep/ciencia_de_dados/">Uma introdução gentil à Ciência de Dados</a>.</li>
+<li>Considerando o <strong>background</strong> dos estudantes neste projeto, foi utilizada uma estratégia<br />
+que para relembrá-los dos principais conceitos entorno da Ciência de Dados, (é recomendável testar este tipo de estratégia com as respectivas ferramentas para
+que o estudantes possa desenvolver habilidades e vivência no mundo virtual e síncrono).
+O diálogo no início da aula, o envio de <strong>cards</strong> pelos mecanismos de comunicação podem
+promover as lembraças dos estudantes. O resultado desta atividade não acaba apenas com o gráfico
+que contem as várias palavras. É necessário que os estudantes se envolvam na análise desta
+informação. Dessa maneira, ao serem impelidos a se debruçar sobre este processo, realizam
+a análise gráfica, uma das etapas desta ciência que seu cerne é o dado. Ao se deparar sobre os dados
+um dos instrutores ao longo do encontro os provocou a refletir quais das palavras daquela
+nuvem seria a de mais frequência entre aquelas fornecidas pelos próprios estudantes.
+Uma das estudantes rapidamente identificou e o instrututor completou a análise, explicando
+a distribuição e dimensão das palavras para todo o público alcançasse um aproveitamento
+próximo desta etapa do encontro. Em resumo, os estudante destacaram a própria “Ciência de Dados”
+como expressão ou palavra da qual mais lembravam, porém, outras palavras interessntes surgiram
+como “Big Data,” “Insight,” “gráficos,” “medianas” etc. Contudo, a participação
+no chat do google meet não foi tão expressiva até esta etapa. Mas alguns elementos
+foram extraídos dessa etapa, como o fato de uma das estudantes fazer o relato sobre estar
+familiarizada com este tipo de visualização pois assistiu no programa de televisão de
+“Fátima Bernardes,” evidenciando a percolação do uso de informações por outros mecanismos
+que não acadêmicos [EXPLORAR].</li>
+</ul>
+<p>COLOCAR FIGURA DA NUVEM AQUI</p>
+<ul>
+<li>Antes deste encontro os estudantes tiveram uma palestra na qual viram visualização
+de dados aplicados a análise dos dados de irradiância solar.</li>
+</ul>
+<p>A partir de uma figura do meio ujbano disponibilizada no <a href="https://bookdown.org/cienciadedadosnaep/ciencia_de_dados/">ebook Uma introdução gentil à Ciência de Dados</a> os estudantes são convidados
+a refletir sobre diversos problemas do meio urbano, como a “Saúde,” “Meio Ambiente,” “Acessibilidade” e “Transporte” e como a ciência de dados poderia ajudar.
+Os estudantes indicaram por meio do chat:</p>
+<ul>
+<li>“Eu acho que no geral para fazer pesquisas,”</li>
+<li>“Número de Leitos,”</li>
+<li>“Número de vagas,”</li>
+<li>“Demora do atendimento,”</li>
+<li>“Número de trabalhadores,”</li>
+<li>“Tem mais tecnologias para as pessoas entenderem os dados,”</li>
+<li>“Quantas pessoas estão internadas,”</li>
+<li>“Número de infectados por doenças,”</li>
+<li>“O sistema de marcação de exames,”</li>
+<li>“Quantas pessoas estão nos ônibus,”</li>
+<li>“O negócio que aparece onde o ônibus vai,”</li>
+<li>“Ter mais elevador nos ônibus pra deficiente,”</li>
+<li>“Ponto de ônibus,”</li>
+<li>“Quais são as áreas que tem menos ônibus”</li>
+<li>“Tipo de problema do metrô,”</li>
+<li>“Quantos ônibus precisam ser renovados com ar-condicionado, elevador, cadeiras etc.”</li>
+</ul>
+<p>A partir deste novo “brainstorm,” o grupo é convidado a pensar como lidar com
+as questões formulados no âmbito da ciência de dados.</p>
+<ul>
+<li>“Dados está em todo lugar”</li>
+</ul>
+<p>Os três principais pilares são então apresentados, demonstrando a
+interdisciplinariedade da ciência de dados (Estatística/Matemática,
+Computação e conhecimento do fenômeno).</p>
+<p>Em que situação do dia a dia são encontradas aplicações de Ciência de Dados?</p>
+<p>Relatos dos estudantes pelo chat:
+- Televisão, celular, internet, comerciais, jogos, informações de jornais, recomendações do Instagram, Youtube.
+- Coletando meus dados.</p>
+<p>Explicação sobre sistema de recomendações.</p>
+<p>Relato dos estudantes por audio:
+- Uma das estudantes desconfia que o Youtube deve fazer propagandas e recomendações para ganhar dinheiro, “não perde uma chance de ganhar dinheiro.</p>
+<ul>
+<li>Uma das estudantes diz que o youtube faz recomendações baseado naquilo que já assistimos e
+demonstra familiaridade ao exemplificar o caso de vídeos de <em>coaching</em> quando se pesquisa um tem associado como <em>empreendedorismo</em>.</li>
+</ul>
+<p>Ao se explorar ideias mais complexas como a operação do sistema de recomendações baseado no seu perfil de redes sociais, independemtemente do aparelho em uso, eles não demosntraram familiaridade. Um possível explicação para este fato é a falta de acesso a mais de um aparelho. Em algumas situações os estudantes não tem o parelho apenas para si.</p>
+<p>Mecanismo do sistema de recomendações</p>
+<p>A instrutora demonstrou a estrutura geral do sistema de recomendações,
+formada pelas etapas (Usuários, Características dos Vídeos, Pre-processamento dos dados,
+Análise dos dados, Predição, Recomendações, Usuários).</p>
+<p>Proposta de atividade em aula</p>
+<p>Vamos criar equipes, coletar dados e responder as seguintes perguntas:</p>
+<ol style="list-style-type: decimal">
+<li>Qual é o gênero de vídeos favorito da sua equipe?</li>
+<li>Qual é a característica mais influencia este resultado?</li>
+<li>Existe um padrão no perfil dos integrantes da equipe?</li>
+</ol>
+<ul>
+<li>Os estudantes levaram cerca de 30min para a realização da atividade</li>
+</ul>
+<p>Os instrutores identificaram que os grupos construídos no Whatsapp para a realização da
+atividade trocaram cerca de 100 mensagem cada.</p>
+<ol style="list-style-type: lower-alpha">
+<li>grupo 4) Gênero favorito Música, o motivo é diversão, realizou a atividade chegando ao consenso, avaliação dos fatores que influenciam e
+inciaram a elaboração de um gráfico de setores para estudar as informações do grupo, porém ela relata que 100% das pessoas preferiram música.</li>
+<li>grupo 3) Escolheram gameplay, perceberam o uso de vídeos longos 10-20min, identificaram idade entre 13-15 anos, usaram tabela para a representação.</li>
+<li>grupo 2) Fizeram o descritivo das principais escolhas do grupo, e demonstram conhecimento sobre a lógica da recomendação (de acordo com o que mais assistem). Os estudantes relatam os tipos de música escutada como <em>Hap</em>. Dada a escolha distribuída entre as opções de cada um deste grupo, a única variável que os uniu era a idade. A participante do grupo ainda relata familiaridade com dados estatísticos ao dizer que seria difícil compreender o gênero de alguém como variável que definiria na recomendação devido a falta de quantidade de dados.<br />
+</li>
+<li>grupo 1) A equipe não podia falar, e identificaram que a eles constumam assistir vídeos
+com menos de 50min e a curiosidade é o que todos são</li>
+</ol>
+<p>A instrutura amarra a discussão sobre as tendências dos gostos em função de algumas variáveis,
+quantidade de dados, identidicação de padrões por tabelas ou visualização de dados.</p>
+<ul>
+<li>Fazer perguntas</li>
+<li>Reuni informações (Coleta de Dados)</li>
+<li>Analisaram os dados</li>
+<li>Representação ou visualização de dados.</li>
+</ul>
+<p>Nesta etapa foi amarrada a discussão do Ciclo de Dados da Ciência de Dados e
+novamente os estudante sãao estimulados a preencher uma nuvem de palavras com
+os conceitos deste encontro.</p>
+<p>Agora, nesta etapa a nova nuvem de palavras revelou outro nível de informações.
+Os estudantes ficaram focados em “Coletada de Dados,” “Amostra,”
+“Pesquisa Trabalho em Equipe,” ““youtube’. Curiosamente, alguns estudantes relataram a palavra”protagonismos”.</p>
+</div>
+<div id="proposta-de-atividade-e-reencontro" class="section level3" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Proposta de atividade e reencontro</h3>
+<p>A construção de um formulário foi realizada para completar o ciclo e
+consolitar o ciclo do entendimento da Ciência de Dados. Um segundo
+encontro foi utilizado para debater as atividades além da proposição das
+atividades. Conceitos essenciais como ciclo de dados, coleta de dados,
+<em>insights</em> etc.</p>
+<p>Neste <a href="https://youtu.be/v--UCfc3OQQ">encontro 05/03/2021</a> desenvolvemos
+um sistemas de grupos que eram responsáveis pela elaboração de 3
+perguntas baseadas na leitura de ebook, e em seguida seria
+realizado a proposta da pergunta para outra equipe responder.
+Estimulando tanto a leitura quanto a reflexão sobre a definição da
+Ciência de Dados.</p>
+<p>Houve uma boa adesão a esta atividade. Tanto por parte da elaboração
+das perguntas quanto aqueles que decidiram respondê-las.</p>
+<p>Os colegas interagiram, tiveram dúvidas e espontaneamente<br />
+cooperaram uns com os outros. Explicando os mecanismos
+de recomendações e preferências, relataram novamente
+experiências com planbos de celulares, o que assistiram
+em programas de canais de televisão a respeito sobre o sistema
+social da internet. Eles estavam atentos sobre a assinatura dos
+termos e condições utilizados na entrada de redes sociais e
+sites. Quando questionados quais setores da sociedade
+pode ser aplicado a Ciência de Dados eles souberam
+explicar com bastante segurança,
+qualquer área que envolvam dados.</p>
+</div>
+</div>
+<div id="encontro-sobre-coleta-de-dados-turma-1" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Encontro sobre Coleta de Dados (Turma 1)</h2>
+<div id="relato-do-encontro-1" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Relato do encontro</h3>
+<p>Foi realizada uma apresentação inicial<br />
+que discutiu uma das etapas
+ciclo de dados, a coleta de dados.
+A entrata neste tema exigiu a exploração
+dos conceitos básicos de estruturação de dados.
+Portanto, foi explorado com os estudantes
+as diferentes formas como os dados são<br />
+encontrados, como estruturados e não estruturados.
+Motivados pela necessidade de maior atuação
+dos estudantes, para que as perguntas e
+formulações partissem dos estudantes a estrutura
+dos encontros passou para um modelo de dinâmicas.</p>
+<p>Esta etapa envolvia a coleta de dados
+conduzidas por uma estrutura prévia
+que estavam pautadas no tema “Família.”
+<strong>[Família],[Raça/Cor],[Quantidade de filhos],Quantidade de animais de estimação]</strong></p>
+<p>Nesta atividade os estudantes de cada grupo coletaram os dados e
+em cada linha preencheram as informações
+sobre as suas respectivas famílias. Algumas dúvidas
+interessantes surgiram, como o caso de famílias
+que além dos pais, tem avós ou tios. Outra
+informação que os estudantes tiveram dificuldade
+foi a escolha ou definição de raça/cor, pois
+não conseguiam reduzir esta informação
+a uma das categorias conhecidas e difundidas
+pelo IBGE. Na opinião de uma das estudantes
+havia a compreensão que sua família é mista.
+Esta capacidade de reflexão surge com a
+proposta de atividades dinâmicas como esta.
+Por outro lado, para trabalhar
+habilidades específicas é necessário
+aperfeiçoar esta atividade para os estudantes
+possam alcançar melhor desenvolvimento de
+atividades e compor suas competências.</p>
+<p>Cada grupo apresentou seus resultados,
+sendo que os instruturores direcionavam
+perguntas em relação às tabelas alcançadas
+pelos estudantes. Um dos principais
+debates surgiu entorno da necessidade
+de verificar a consistências dos dados
+por meio do cruzamento de variáveis e
+observações. Discutiu-se sobre variáveis
+numéricas e categóricas. Também foi observado
+um outro fenômeno, a duplicidade das linhas,
+demonstrando mais um possível problema
+tipicamente encontrado nos bancos de dados.</p>
+<p>Em seguida, foi realizado um fechamento
+dos conceitos tabelas, variáveis, observações,
+base de dados etc.</p>
+</div>
+<div id="proposta-de-atividades-e-reencontros" class="section level3" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Proposta de atividades e reencontros</h3>
+<p>Ao final do encontro, foi proposta uma atividade
+na qual os estudantes teriam que escolher um candidato
+para vaga de emprego de motorista. Para isto deveriam
+definir variáveis na seleção e organizar uma base de dados
+para auxiliar na decisão, explicando suas decisões.
+Sendo importante que a principal referência seria o
+uso do ebook de ciência de dados.</p>
+</div>
+</div>
+<div id="reencontro-sobre-base-dos-dados-e-encontro-de-visualização-de-dados-turma-1" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1)</h2>
+<p><a href="https://youtu.be/tT6_xB47Hssv">encontro 30/03/2021</a></p>
+<div id="relato-do-reencontro" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Relato do reencontro</h3>
+<p>Um dos grupos dedicaram a atividade de contratação de
+um engenheiro ambiental. O grupo debateu
+sobre a seleção de variáveis a partir de um conjunto previamente
+disponibilizado na aula anterior. Discutiu-se a conexão
+entre as variáveis e a pergunta realizada na solução de
+contratação de um profissional. Assim, foi discutido
+o encadeamento da metodologia
+utilizada na ciência de dados. Em outra
+equipe foi explorado o excesso de variáveis
+como fator de confusão da análise
+conduzindo os estudantes a reflexão
+sobre a necessidade de planejar uma coleta de dados
+de acordo com a pergunta que pretende-se
+responder. Além disso, é importante notar que
+não é ética a atitude de coleta de dados
+em entrevistas de emprego que não sirvam para este
+fim. Também foram debatidos temas transversais
+às ciências de dados como elementos
+da candidatura envolverem preconceitos e
+como algumas variáveis podem conduzir para
+este viés. Também foi realizada um debate
+a respeito do aproveito de bancos de dados
+prévios e para quais fins ele foi construído.</p>
+</div>
+<div id="encontro-de-visualização-de-dados" class="section level3" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Encontro de visualização de dados</h3>
+<p>O encontro de visualização de dados utilizou
+o tema de educação, especificamente
+dedicado aos dados do ENEM.</p>
+<p>Inicialmente foi relembrado aos estudantes
+que no ano anterior havia uma das disciplinas do
+projeto que envolvia apenas a visualização de dados.</p>
+<p>Uma das instrutoras usou recursos de handwriting
+em um tablet para a construção de gráficos de
+barras. Primeiro demonstrou os valores
+na tabela da evolução do número de inscritos
+no ENEM. Os estudantes opinaram sobre o
+comportmento dos dados, o que os induziu
+a construção de um gráfico para explorar
+de forma mais direta o comportamento
+geral das informações.</p>
+<p>Foram debatidos alguns conceitos
+básicos como eixos,representação
+da variável, valores de referência,
+legenda, título de gráficos etc.</p>
+<p>Na etapa de análise foi explorado
+o comportamento do número de inscritos,
+exatamente oposto ao senso comum, segundo
+a resposta dos próprios estudantes.</p>
+<p>Em seguida, a discussão é conduzido aos problemas
+de pessoas que tem dificuldade de acesso a
+computadores e as implicações na realização da
+prova do ENEM. Nesta etapa foi explorado
+de forma detalhada a construção de um gráfico de setores.
+Que envolveu o cálculo de frequência, percentual e
+a ideia de proporcionalidade da área do setor
+como representação da quantidade de uma determinada categoria.</p>
+<p>Neste encontro a participação dos estudantes foi menos
+pronunciada,tanto verbalmente quanto pela escrita no chat.
+Este comportamento deve ser investigado, sendo que o modelo
+expositivo da aula ou pela dificuldade nas habilidades com
+cálculos com frações ou percentuais. Poucos estudantes
+demonstraram conhecimento prévio sobre este conteúdo.</p>
+<p>Um dos instrutores esclarece que a motivação do uso de
+um gráfico ou outro depende da informação que se pretende
+comunicar. Também são exploradas as fragilidades dos gráficos.</p>
+</div>
+</div>
+<div id="reencontro-de-visualização-de-dados-turma-1" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Reencontro de visualização de dados (Turma 1)</h2>
+<p>Neste <a href="https://youtu.be/pbioaYwR89U">encontro</a> os conteúdos
+da aula anterior foram revisitados. Porém, devido as
+dificuldades encontradas pelos estudantes no cálculo
+de frações foi utilizado um recurso de lousa matemática
+<a href="pt.mathigon.org">Mathigon</a> que contém elementos geométricos,
+recursos que simulam realidades físicas como balanças,
+dados ou sistemas de cartas.</p>
+<p>A apresentação do recurso digital prendeu um pouco mais
+a atenção dos estudantes além de melhorar a participação e
+compreesão sobre as ideias de frações, fundamentais para
+aprofundar na análise de gráficos de setores. Uma das
+estudantes compreendeu detalhadamente o conceito de
+frações e sua ligação com o gráfico de setores, verbalizando
+uma ideia da visualização a qual foi estimulado a refletir.</p>
+<p>Algumas ressalvas foram realizadas sobre aspectos de
+visualização de dados, como a proporcionalidade,
+aspectos técnicos dos eixos, percentuais de áreas ocupadas,
+legenda e títulos.</p>
+<div id="proposta-de-atividades-e-reencontros-1" class="section level3" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Proposta de atividades e reencontros</h3>
+<p>Numa atividades proposta através de um formulário
+web os estudantes foram estimulados a responder
+informações sobre frações, gráficos de barras e
+gráficos de setores. Além disso, foi uma nova
+oportunidade para que os estudantes pudessem familiarizar
+com informações transversais ao tema do ENEM,
+como a compreensão a respeito sobre os recortes de
+raça/cor adotadas pelo IBGE.</p>
+</div>
+</div>
+<div id="capoeira-esporte-e-liberdade.-correlação-e-causalidade-turma-1" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1)</h2>
+<p>O <a href="https://youtu.be/ja7g6Z88E74">encontro</a> discutiu
+os conceitos de correlação e causalidade suportado
+no debate de sobre a expressão cultural local.
+Inicialmente foi proposta uma pequena
+dinâmica que envolvia a produção de uma nuvem de palavras
+estimulados pela experiências que os estudantes tinham
+a respeito da capoeira. A palavra que mais se destacou
+foi a “Dança,” mas os estudantes lembraram da capoeira
+através de vários vocábulos como:</p>
+<ul>
+<li>A arte da dança e da luta;</li>
+<li>Arte;</li>
+<li>História;</li>
+<li>Autodefesa;</li>
+<li>Cultura;</li>
+<li>Exercício Físico;</li>
+<li>Au;</li>
+<li>Escravos;</li>
+<li>Berimbau e</li>
+<li>África.</li>
+</ul>
+<p>Na sequência, com o propósito de lembrá-los
+dos movimentos da capoeira foram apresentados
+vídeos com animações que representam a capoeira,
+sendo um deles construído com figuras baseada em carvão
+e um segundo que explora as relações de som, roda, instrumentos,
+movimento e a geometria com ideia de roda. Nesta etapa a
+participação dos estudantes se tornou mais intensa,
+devido a aproximação com a capoeira conhecendo
+desde os movimentos da capoeira e detalhes
+especiais como o nome de instrumentos como
+atabaque, berimbau etc.</p>
+<p>Numa etapa seguinte, os estudantes foram
+convidados à leitura de trechos do livro
+“José Moçambique e a Capoeira por Thereza de Almeida (Autor), Joaquim de Almeida (Autor), Laurabeatriz (Ilustrador) - 2007.”
+A leitura foi realizada por três estudantes, eram trechos
+que relembraram as “Instrumentos e música,”
+“Movimento e cooperação” e “Dinâmica, continuidade e multifuncioalidade.”</p>
+<p>Em seguida foi demonstrado a importância
+da capoeira e seu destaque como patrimônio histórico cultural
+e as conexões da com outros patrimônios reconhecidos pela
+UNESCO.</p>
+<p>A discussão é guiada inicialmente entorno
+da relação causal, a estrutura do berimbau e seu
+uso são explorados. A relação do material, da corda,
+a ação de tocá-la e a propagação gerada pela cabaça são
+o fio de construção para o conceito de causalidade.
+O texto é usado como base para
+ajudar na diferenciação entre os conceitos de
+causalidade e correlação. Os estudantes se sentiram
+confortáveis para opinar devido a
+reflexão baseados na vivência e experiência cultural
+ofericida pela cidade. Esses
+elementos facilitaram a entrada nas estruturas
+formais da matriz de causalidade.
+Baseado no jogo da capoeira foi construída
+uma matriz constituída de variáveis
+como movimento dos jogadores 1 e 2, movimento
+dos outros participantes da roda, instrumento berimbau,
+música. Foi definido uma legenda de cores
+para estabelecer três níveis de correlação, baixo (vermelho) ,
+médio (amarelo) e alto (verde). Houve bastante cooperação
+nesta etapa, os estudntes transportaram as ideias
+discutidas nos elementos objetivos da representação da
+matriz de correlação.</p>
+<p>Um segundo problema foi apresentada, baseado no futebol,
+que também está presente no cotidiano da maioria dos
+estudantes. Foi construído um <a href="https://cienciadedadosnaep.github.io/dbesporte/">dashboard com dados de futebol</a>,
+no qual foram disponibilizados gráficos de dispersão
+com dados de faltas, gols, posição dos jogadores etc.
+Esta estratégia trouxe o estudante do campo das
+reflexões, do debate baseado na fenomenalogia do problema (caso da capoeira)
+para a discussão a partir dos dados (dados de futebol).
+Adicionalmente, foi ampliada a discusão a respeito de
+correlação positiva, nula e negativa.</p>
+<div id="proposta-de-atividades-e-reencontros-2" class="section level3" number="1.6.1">
+<h3><span class="header-section-number">1.6.1</span> Proposta de atividades e reencontros</h3>
+<p>Ao final do encontro, foi proposta
+uma atividade que envolvia a medição do comprimento
+das pernas, a altura e abertura da perna num
+movimento de ginga da capoeira. Assim,
+o estudante é estimulado a produção de
+suas próprias medidas, seguida da organização
+na forma de tabela, suportados nas experiências
+previamente desenvolvidas em outros encontros.
+Especialmente nesta atividade foram criados
+grupos de whatsapp para acompanhamento
+próximo do desenvolvimento dos estudantes,
+muitas dúvidas surgiram, sendo
+uma grande oportunidade para<br />
+oirientá-los de acordo com suas respectivas
+dificuldades.</p>
+</div>
+</div>
+<div id="média-e-mediana-e-segurança-pública-turma-1" class="section level2" number="1.7">
+<h2><span class="header-section-number">1.7</span> Média e Mediana e Segurança Pública (Turma 1)</h2>
+<p>Inicialmente foi realizada uma breve
+revisão em relação ao último
+encontro, na qual os dados medidos
+pelos estudantes foram reunidos
+e disponibilizados na forma de dashboard.
+Alguns comentários sobre as formas
+como realizadas as medidas e as
+consequências sobre a análise final.
+Houve uma sequência na qual os dados
+originais dos estudantes foram
+apresentados como banco de dados,
+explorando mais uma vez as informações
+e os conceitos de observação, variáveis
+categoricas, variáveis numéricas e
+contínuas. Foi usado a estratégia
+de visualização de dados destas medidas
+para auxiliar no debate com os estudantes.
+Estimulando a análise crítica dos dados.
+Consolidando a abordagem do ciclo de dados
+desenvolvido no primeiro semestre.
+A partir da visualização dos dados
+os estudantes reconheceram os próprios dados
+e foi possível a identificação das divergências
+de medição.</p>
+<p>O tema de segurança pública tão caro aos
+estudantes do projeto, foi apresentado
+numa das suas linhas de recorte racial,
+especialmente por meio de dados de
+ocorrências de crimes contra a mulher.</p>
+<p>A estratégia utilizada se constituiu num vídeo de 3 min
+que explicava brevemente os principais
+indicadores de segurança pública utilizada pela
+Secretaria de Segurança Pública da Bahia (SSP-BA)
+e a possibilidade de avaliá-los por meio de
+média e mediana.</p>
+<p>Na sequência, utilizando os dados da Rede Observatório
+de Segurança Pública sobre o número de mulheres
+vítimas de violência sexual na Bahia.
+Foi apresentado dois comportamentos destes dados
+entre 2009 até 2017. Alguns aspectos do
+contexto foram apontadas como
+a lei nacional no enfrentamento dessa violência é a Lei nº 11.340/2006
+(Lei Maria da Penha) e Lei do Feminicídio (nº 13.104/2015)
+e trazidos para a compreensão dos dados e a ligação
+com os casos de subnotificação.
+O aprofundamento da questão se deu ao enxergar os dados
+desagregados por raça/cor.</p>
+<p>A evolução da análise avançou pela aplicação de média e
+mediana, apontando as principais vantagens e desvantagens em
+relação aos dados. Foi proposto ao longo
+do encontro que os participantes escolhessem uma
+das categorias (Ignorados, Negras, Não Negras e Total)
+e fizem o cálculo da mediana. Esta atividade gerou
+um bom envolvimento dos estudantes, que além de realizar
+os cálculos souberam julgar a escolha entre média e
+mediana. Na sequência, os estudantes foram apresentados a mais
+parâmetros para a descrição dos dados. Com foco
+na amplitude, quartis e sua representação pelo
+boxplot.</p>
+<p>Para atividade assíncrona foi proposto que os
+estudantes escolhessem um dos indicadores
+de segurança pública da SSP-BA e selecionassem
+apenas os valores mensais de um ano específico e
+calculassem a mediana, para fortalecer a
+habilidade de cálculo de indicadores.</p>
+</div>
+<div id="pesquisa-amostral---transporte-turma-1" class="section level2" number="1.8">
+<h2><span class="header-section-number">1.8</span> Pesquisa Amostral - Transporte (Turma 1)</h2>
+<p>Quanto ao tema de pesquisa amostral foi utilizado um texto
+com o título: <strong>Em Salvador, mulheres não se sentem seguras
+para circular pela cidade</strong>. Previamente,
+os estudantes foram questionados a respeito da segurança
+de andar em ônibus em Salvador. Algumas estudantes
+relataram a experiência de serem importunadas pelo olhar
+dentro do ônibus (ou no ponto) ou de outras formas.</p>
+<p>Como a entrevista foi construída baseada em Pesquisa Amostral e
+era acomapanhada de excelente qualidade da visualização dos dados.
+Eles foram relembrados como a pesquisa amostral faz parte
+do ciclo dos dados apresentado no primeiro encontro.</p>
+<p>Dessa forma, foram estimulados a pensar sobre quais foram
+as estratégias utilizadas para lacançar um bom resultado
+dessa pesquisa. Gradativamente, ao longo do rico debate
+com os estudantes, sendo apresenta todas as etapas
+de planejamento e execução da pesquisa. Os
+estudantes foram bem assertivos na compreensão
+dos viéses (de seleção, medição, questão e de não respondentes)
+gerados pela mã conduta da pesquisa amostral.
+Também foi discutido a importância do tamanho da amostra e
+a forma como a pesquisa foi realizada. Mostramos
+como dados de instituições públicas foram
+utilizados para ajudar na contextualização.</p>
+<p>Os dados dos resultados da pesquisa são apresentados<br />
+por meio de gráfico de setores e barras dentro
+de infográficos. Esta forma de apresentaçãoi traz um
+benefício ao estudante na compreensão do dado
+contextualizado, suportado num discussão.
+À medida que este debate avançou, algumas
+questões tornaram-se emergentes e os
+estudantes reconheceram a possibilidade
+de serem vítimas de situações presentes no
+texto.</p>
+<p>As fragilidades da pesquisa também foram exploradas
+ao longo da discussão, estimulando ao grupo
+a reflexão sobre a qualidade do dado na formação da
+opinião. Seguindo por uma breve apresentação das políticas públicas
+para auxiliar na solução destes problemas.</p>
+<p>Na conclusão do encontro foi proposta uma atividade
+que ajudava na leitura dirigida da reportagem que traz o foco
+paras as questões da pesquisa amostral.</p>
+</div>
+<div id="saúde-e-probabilidade---pesquisa-nacional-de-saúde-do-escolar-pense-turma-1" class="section level2" number="1.9">
+<h2><span class="header-section-number">1.9</span> Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1)</h2>
+<p>Dado pelos encontros anteriores,
+os estudantes foram apresentados aos
+seguintes temas:</p>
+<ul>
+<li>Ciclo dados;</li>
+<li>Coleta de Dados;</li>
+<li>Visualização de Dados;</li>
+<li>Indicadores de tendência central etc.</li>
+</ul>
+<p>O tema de saúde deu suporte para introdução dos
+estudantes aos conceitos de probabilidade.
+Particularmente, foi adotado o tema de saúde próximo
+da realidade vivida pelos estudantes. Utilizamos
+os dados da Pesquisa Nacional da Saúde do Escolar (PeNSE)
+como estratégia. As perguntas do PeNSE são adequadamente
+planejadas para o público dos anos finais do ensino
+fundamental e ensino médio tornou efetivo
+o desenvolvimento das atividades do projeto.</p>
+<p>O vídeo de promoção da pesquisa foi proposto aos
+estudantes para uma reflexão prévia. Os dados
+apresentados chamaram atenção dos estudantes
+gerando comentários a respeito de drogas,
+sedentarismo e hábitos alimentares. Entretanto,
+não foram suficientes para alcançar a noção
+completa de probabilidade.
+Assim, foi utilizado uma estratégia
+de construção dos conceitos como
+experimento aleatório, evento,
+espaço amostral,
+possibilidade e probabilidade por meio
+de uma estratégia tradicional baseada
+em elementos que os estudantes tem mais
+controle como dados e moedas.</p>
+<p>Apoiado nesta discussão,
+avançamos na análise dos dados do PeNSE.
+Primeiro, os estudantes tiveram
+que responder um formulário elaborado
+a partir das perguntas do próprio PeNSE, o que
+permitiu avaliar a
+consolidação dos conceitos
+apresentados neste encontro.</p>
+<p>Os estudantes também foram estimulados
+durante o encontro
+a leitura de dois trechos de teses que se pautaram
+na PeNSE. Nesta etapa do curso os estudantes tem mostrado
+elementos de argumentação baseado
+nas informações precedentes do curso. Também
+faz parte do vocabulário dos estudantes os
+outros temas debatidos em outros ambientes do
+projeto, especialmente aqueles ligados
+aos temas de protagonismo racial, social e de gênero.</p>
+</div>
+<div id="introdução-à-ciência-de-dados-turma-2" class="section level2" number="1.10">
+<h2><span class="header-section-number">1.10</span> Introdução à Ciência de Dados (Turma 2)</h2>
+<p>A Turma 2, que iniciou as atividades no segundo
+semestre de 2021 teve um número de encontros
+bem menos que a Turma 1. Diferente da
+Turma 1, que teve a experiência com muitos
+encontros com a equipe desde 2020 e em alguns
+casos que tinham experiências presenciais
+em 2019.</p>
+<div id="relato-do-encontro-2" class="section level3" number="1.10.1">
+<h3><span class="header-section-number">1.10.1</span> Relato do encontro</h3>
+<p>A proposta do encontro de introdução à ciência de dados
+é a mesma realizada na Turma 1. À respeito da nuvem de palavras
+proposta houve um resultado um pouco diferente,
+particularmente pela confusão entre ciência de dados e
+inteligência artificial.</p>
+<p>O debate sobre decisões nos ambientes urbanos foi
+muito rico, houve cooperação dos estudantes com suas
+experiências, como a exemplificação dos problemas
+enfrentado ao ir para a escola, como
+eles usariam as informações de um celular para apoiá-los
+em decisões em problemas reais.</p>
+<p>A estratégia de demonstrar a previsão do tempo coloca
+um contexto no qual as informações são resultado
+de um grande processo de análise de dados, modelagem,
+apresentação e tomada de decisões. Problemas emergentes
+como o da pandemia, trazidos pelos estudantes
+deram mais elementos para o debate e ajudou na
+definição das ciências de dados.</p>
+<p>A qualidade da participação dos estudantes foi em média
+muito diferenciada, sendo necessário e uma oportunidade
+de pesquisa as diferenças entre os diferentes grupos<br />
+de participantes de projetos similares a este.</p>
+<p>Com muita facilidade foi possível conectar o
+sistema de recomendações com o ciclo dos dados
+da ciência de dados.</p>
+<p>Portanto um excelente nível de aproveitamento de todas as
+partes.</p>
+</div>
+</div>
+<div id="relatório" class="section level2" number="1.11">
+<h2><span class="header-section-number">1.11</span> Relatório</h2>
+<table>
+<caption>
+<span id="tab:quadrohab">Tabela 1.1: </span>Descrição das atividades realizadas pelo
+equipe de Ciência de Dados.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+acoes
+</th>
+<th style="text-align:left;">
+subtema
+</th>
+<th style="text-align:left;">
+cod_bncc
+</th>
+<th style="text-align:left;">
+habilidades
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Introdução à Ciência de dados
+</td>
+<td style="text-align:left;">
+Sistemas de recomendações
+</td>
+<td style="text-align:left;">
+EMIFCG01
+</td>
+<td style="text-align:left;">
+Compreensão do funcionamento das tecnologias de digitais baseada em ciências
+de dados.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coleta de dados
+</td>
+<td style="text-align:left;">
+Programas de assistência social e distribuição de renda
+</td>
+<td style="text-align:left;">
+EMIFMAT07 e EMIFMAT08
+</td>
+<td style="text-align:left;">
+Compreensão dos sistemas de coleta de dados e informações ligados aos principais programas de assistência social e redistribuição de renda.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Visualização de dados
+</td>
+<td style="text-align:left;">
+Exame Nacional do Ensino Médio
+</td>
+<td style="text-align:left;">
+EMIFMAT07
+</td>
+<td style="text-align:left;">
+Identificação de fatores correlacionados ao desempenho no ENEM por meio
+de visualização de dados.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Correlação e Causalidade
+</td>
+<td style="text-align:left;">
+Capoeira e dados de futebol
+</td>
+<td style="text-align:left;">
+EMIFMAT05 e EMIFMAT06
+</td>
+<td style="text-align:left;">
+Desenvolvimento de pensamento matemático e estatístico por
+meio do diálogo sobre manifestações culturais como capoeira. E
+de conceitos de causalidade e
+correlação por meio de análise de dados de futebol
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indicadores de tendência central - Média e Mediana
+</td>
+<td style="text-align:left;">
+Indicadores criminais
+</td>
+<td style="text-align:left;">
+EMIFCG07
+</td>
+<td style="text-align:left;">
+Análise crítica de indicadores criminais suportado em
+visualização de dados e desenvolvimento da capacidade de síntese
+por meio de estatísticas.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pesquisa Amostral
+</td>
+<td style="text-align:left;">
+Sistema de transporte público e violência contra mulher
+</td>
+<td style="text-align:left;">
+EMIFCG02 e EMIFCNT02
+</td>
+<td style="text-align:left;">
+Desenvolvimento de habilidades ligadas a formulação de hipóteses,
+planejamento e execução de pesquisas amostrais e compreensão
+da mobilidade e segurança da mulher.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Introdução à probabilidade
+</td>
+<td style="text-align:left;">
+Pesquisa Nacional da Saúde do Escolar (PeNSE)
+</td>
+<td style="text-align:left;">
+EMIFMAT03 e EMIFMAT06
+</td>
+<td style="text-align:left;">
+Representação e aquisição de vocabulários ligados a probabilidade
+promovendo a habilidade de transposição de conhecimento para diversas
+áreas. Debate ligado a saúde do estudantes por meio da pesquisa PeNSE IBGE.
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["ciencia_de_dados.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
