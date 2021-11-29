@@ -1,0 +1,35 @@
+grupo,Instituição,Bolsista,ID,Nome,14/06 - PA,16/06 - IA,23/06 - PR,28/06 - PAL,30/06 - CD,05/07 - PAL,07/07 - PI,12/07 - PAL,14/07 - PG,19/07 - PAL,21/07 - CD,26/07 - PAL,28/07 - IA,02/08 - PAL,04/08 - PI,09/08 - PAL,11/08 - PG,16/08 - PAL,18/08 - CD,23/08 - PAL,25/08 - IA,30/08 - PAL,01/09 - PI,06/09 - PAL,08/09 - OFICINA,13/09 - PAL,20/09 - PAL,27/09 - PAL,18/10 - PI,20/10 - PI,27/10 - PG,27/10 - CD,FREQ_ABS,FREQ_PERC
+NJC,Colégio Estadual da Bahia Central,Sim,B001,Deise Victoria dos Santos Santana,F,P,P,F,P,FJ,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,P,F,P,P,P,P,P,P,P,27,84.38%
+NJC,Colégio Estadual da Bahia Central,Sim,B002,Ana Beatriz de Souza Nascimento,F,P,P,F,P,P,F,P,F,P,P,P,P,P,F,F,F,P,P,F,P,F,P,F,F,F,P,P,F,F,F,F,16,50.00%
+NJC,Colégio Estadual da Bahia Central,Sim,B003,Leticia Azevedo Santos,P,P,P,P,P,F,P,P,P,P,P,P,P,P,F,F,FJ,P,P,P,P,F,P,F,P,P,F,F,F,F,F,F,20,62.50%
+NJC,Colégio Estadual da Bahia Central,Sim,B004,Matheus souza santos,F,F,P,F,F,F,P,P,P,P,P,P,P,P,F,F,F,P,F,P,F,P,F,F,F,F,F,F,F,F,F,F,12,37.50%
+NJC,Colégio Estadual da Bahia Central,Sim,B005,Yasmin Santana da Silva Souza,F,X,P,F,F,F,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,26,81.25%
+NJC,Colégio Estadual Evaristo da Veiga,Sim,B006,Ellen Bianca Nobre Santiago,F,P,P,F,P,P,P,F,P,F,P,F,F,F,F,F,F,F,F,P,F,P,P,P,F,P,F,P,F,F,F,F,13,40.63%
+NJC,Colégio Estadual Evaristo da Veiga,Sim,B007,Andrey Enzo de Jesus S. Pinto,F,P,P,F,P,F,P,FJ,P,F,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,F,F,P,P,P,P,P,24,75.00%
+NJC,Colégio Estadual Evaristo da Veiga,Sim,B008,Yasmin Beatriz Santos de Souza,F,F,P,F,P,F,F,P,P,F,F,P,P,P,P,F,P,P,P,F,F,P,P,P,F,P,P,P,P,P,P,P,21,65.63%
+NJC,Colégio Estadual Evaristo da Veiga,Sim,B009,Cauã Motinho Menezes,F,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,F,P,F,P,F,F,P,P,P,P,P,P,F,F,24,75.00%
+NJC,Colégio Estadual Evaristo da Veiga,Sim,B010,Júlia Samara Mendes Ribeiro,F,F,X,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,F,P,P,P,P,F,F,P,F,P,F,P,F,F,21,65.63%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B011,Lisna Anne brito dos santos,F,F,P,F,F,F,P,P,F,P,P,P,P,F,F,F,P,P,F,P,P,P,P,P,P,P,F,P,F,F,F,F,17,53.13%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B012,Ranald Hermes Brazil Ferreira Macedo de Queiros,P,F,X,P,P,F,F,P,P,P,P,P,P,P,F,P,P,P,P,P,F,P,F,P,P,P,P,P,P,P,P,P,25,78.13%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B013,Geisislane Ventura dos Santos,P,P,P,F,F,F,F,F,P,F,F,P,P,F,P,F,P,P,F,F,P,P,P,F,P,P,P,F,F,P,F,F,16,50.00%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B014,Ana Carolina Barroso Reis,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,F,P,P,F,F,P,P,27,84.38%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B015,Aldri de Matos Barroso,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,F,F,P,P,28,87.50%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B016,Isabella Irina Mendoza Oliveira,P,P,X,F,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,29,90.63%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B017,Maria Clara Silva dos Santos,F,X,P,F,F,F,P,F,F,F,P,F,P,P,F,F,P,P,P,F,P,P,P,P,F,F,P,P,F,P,F,F,15,46.88%
+NJC,Colégio Estadual Henriqueta Martins Catharino,Sim,B018,Emily Santos de Jesus,F,X,X,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,P,F,F,F,F,1,3.13%
+NJC,Escola Municipal Cidade de Jequié,Sim,B019,Evelin da Silva e Silva,F,P,P,P,P,P,F,P,P,P,P,P,P,P,P,F,P,P,P,F,F,P,P,P,F,P,F,P,P,P,P,P,25,78.13%
+NJC,Escola Municipal Cidade de Jequié,Sim,B020,Dimitri Silva Moreira,P,P,P,F,P,P,F,P,P,P,P,F,P,P,F,F,P,P,F,F,F,F,F,P,F,P,F,P,P,F,F,F,17,53.13%
+NJC,Escola Municipal Cidade de Jequié,Sim,B021,Leidiane Oliveira do Espírito Santo,P,P,P,FJ,P,P,P,P,P,P,F,P,P,P,P,F,P,P,P,P,P,F,F,P,F,F,P,P,P,P,F,F,23,71.88%
+NJC,Escola Municipal Cidade de Jequié,Sim,B022,Daniel Sacramento Silva,F,F,P,F,F,F,F,F,F,F,F,F,P,F,F,F,P,P,P,P,F,P,P,P,P,P,P,P,F,P,P,P,16,50.00%
+NJC,Escola Municipal Cidade de Jequié,Sim,B023,Alannis Dimas Carvalho Gonçalves,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,31,96.88%
+NJC,Escola Municipal Cidade de Jequié,Sim,B024,Paulo Victor Jesus da Conceição,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,F,F,P,P,F,P,P,P,P,F,F,25,78.13%
+NJC,Escola Municipal Cidade de Jequié,Sim,B025,Evelin Daniela Santos Araújo da Silva,F,F,P,P,P,F,F,F,F,F,P,F,P,F,F,F,F,F,P,F,F,F,P,F,P,P,P,F,F,P,P,P,13,40.63%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B026,Janaína Batista dos Santos,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,FJ,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,30,93.75%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B027,Samara Queiros Muniz,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,31,96.88%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B028,Thiago Neves Fagundes Brito,P,F,P,F,P,P,P,P,P,F,F,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,F,25,78.13%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B029,Fernanda dos Santos Souza Bomfim,F,P,P,P,P,P,P,P,F,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,F,P,P,P,F,P,P,P,27,84.38%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B030,Mel Ellen Mascarenhas de Souza Santos,F,F,P,F,F,F,F,F,F,F,F,P,P,F,F,F,P,P,F,P,P,P,P,F,F,P,F,F,F,P,P,P,13,40.63%
+NJC,Colégio Estadual Mário Costa Neto,Sim,B031,Caíque Brito do Rozario,F,X,P,F,F,F,F,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,F,P,F,F,F,21,65.63%
+NJC,Colégio Estadual Ypiranga,Sim,B032,Agnes Cibele Lacerda Cordeiro,P,P,P,P,F,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,F,P,F,F,P,P,F,P,P,P,26,81.25%
+NJC,Colégio Estadual Ypiranga,Sim,B033,Rana Rodrigues Pires de Jesus,F,P,P,F,P,F,P,P,P,P,P,P,P,P,P,F,F,P,F,P,P,P,F,P,F,P,P,F,P,F,F,F,20,62.50%
+NJC,Colégio Estadual Ypiranga,Não,B034,Valentina Bianca da Silva Ibarra,F,F,P,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,1,3.13%

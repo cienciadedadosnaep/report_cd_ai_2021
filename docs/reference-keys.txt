@@ -1,5 +1,6 @@
 tab:quadrohab
 cap1
+informações-gerais
 introdução
 introdução-à-ciência-de-dados-turma-1
 relato-do-encontro

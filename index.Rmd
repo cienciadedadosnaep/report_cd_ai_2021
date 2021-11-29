@@ -26,6 +26,16 @@ always_allow_html: true
 
 
 
-
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(echarts4r)
+library(readr)
+library(magrittr)
+library(dplyr)
+library(kableExtra)
+library(DT)
+library(crosstalk)
+library(tidyr)
+```
 
 
