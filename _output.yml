@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li class="toc-logo"><a href="./"><img src="logo/logotipo_transparente_baixa.png", width="250" height="250"></a></li>
+      after: |
+        <li><a href="http://reconhecendosalvador.ufba.br/"><img src="logo/03_Padrao_Fundo_Transparente.png", width="125" height="40"></a></li>
+        <li><a href="http://gamma.ufba.br/"><img src="logo/Logo_Gamma.png", width="125" height="40"></a></li>
+    download: ["epub"]
+bookdown::epub_book: default
