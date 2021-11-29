@@ -9,6 +9,7 @@
 
 
 
+### Eventos realizados com os jovens cientistas
 
 ```{r calendar_JCs1, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -46,32 +47,27 @@ diagnostico_cd_EVENTOS %>% arrange(eventos) |>
   group_by(X3) |>
   e_charts(X2) |> 
   e_calendar(range = c("2021-01-01", "2021-06-30")) |>
+#  e_calendar(range = c("2021-07-01", "2021-12-31"),top="260") |>
 #  e_calendar(range = c("2021")) |> 
   e_heatmap(eventos_, coord_system = "calendar") |>
   e_color(c("#4a82a8","#fed26e","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
   e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
   e_tooltip(trigger = c("item","axis")) |>
-  e_title("Eventos", "Jovens Cientistas")
+  e_title("Eventos 1º SEM", "JC")
   
   
-diagnostico_cd_EVENTOS %>% arrange(eventos) |>
-  group_by(X3) |>
-  e_charts(X2) |> 
-  e_calendar(range = c("2021-07-01", "2021-12-31")) |>
-#  e_calendar(range = c("2021")) |> 
-  e_heatmap(eventos_, coord_system = "calendar") |>
-  e_color(c("#4a82a8","#fed26e","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
-  e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
-  e_tooltip(trigger = c("item","axis")) |>
-  e_title("Eventos", "Jovens Cientistas")
-
-
-
+ diagnostico_cd_EVENTOS %>% arrange(eventos) |>
+   group_by(X3) |>
+   e_charts(X2) |> 
+   e_calendar(range = c("2021-07-01", "2021-12-31")) |>
+# #  e_calendar(range = c("2021")) |> 
+   e_heatmap(eventos_, coord_system = "calendar") |>
+   e_color(c("#4a82a8","#fed26e","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
+   e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
+   e_tooltip(trigger = c("item","axis")) |>
+   e_title("Eventos 2º SEM", "JC")
 
 ```
-
-
-
 
 
 ```{r setores_JC, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
@@ -130,10 +126,111 @@ diagnostico_cd_EVENTOS %>%
 ```
 
 
+### Encontro com os novos jovens cientistas 
 
 
 
 
+```{r calendar_NJCs1, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+
+
+diagnostico_cd_EVENTOS_NJC <- read_csv("data/diagnostico_cd - EVENTOS_NJC.csv",
+                                   col_names = FALSE, col_types = cols(X2 = col_date(format = "%d/%m/%Y")))
+
+
+diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos = as.factor(X3))
+#diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos = unclass(eventos))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(CD = ifelse(eventos=="CD",1,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(G = ifelse(eventos=="G",2,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(IA = ifelse(eventos=="IA",3,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(OFICINA = ifelse(eventos=="OFICINA",4,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PAL = ifelse(eventos=="PAL",5,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PG = ifelse(eventos=="PG",6,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PI = ifelse(eventos=="PI",7,NA))
+
+
+diagnostico_cd_EVENTOS_NJC <- as.data.frame(diagnostico_cd_EVENTOS_NJC)
+row.names(diagnostico_cd_EVENTOS_NJC) <- as.vector(paste(diagnostico_cd_EVENTOS_NJC$X3,seq(1:length(diagnostico_cd_EVENTOS_NJC$X3))))
+
+diagnostico_cd_EVENTOS_NJC <- tibble::as_tibble(diagnostico_cd_EVENTOS_NJC)
+
+
+diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos_ = as.numeric(eventos))
+
+diagnostico_cd_EVENTOS_NJC %>% arrange(eventos) %>%  
+  filter(X3 %in% c("CD","IA","OFICINA","PAL","PG","PI")) |>
+  group_by(X3) |>
+  e_charts(X2) |>
+  e_calendar(range = c("2021-01-01", "2021-06-30")) |>
+  e_heatmap(eventos_, coord_system = "calendar") |>
+  e_color(c("#4a82a8","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
+  e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
+  e_tooltip(trigger = c("item","axis")) |>
+  #e_visual_map(max = 7) |>
+  #e_legend(type = "plain",show = TRUE)|>
+  #e_labels() |>
+  e_title("Eventos 1° SEM", "NJC")
+
+# remocao da cor ,"#fed26e" pois não tem "G"
+
+
+
+
+  diagnostico_cd_EVENTOS_NJC %>% arrange(eventos) %>%  
+  filter(X3 %in% c("CD","IA","OFICINA","PAL","PG","PI")) |>
+  group_by(X3) |>
+  e_charts(X2) |>
+  e_calendar(range = c("2021-07-01", "2021-12-31")) |>
+  e_heatmap(eventos_, coord_system = "calendar") |>
+  e_color(c("#4a82a8","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
+  e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
+  e_tooltip(trigger = c("item","axis")) |>
+  #e_visual_map(max = 7) |>
+  #e_legend(type = "plain",show = TRUE)|>
+  #e_labels() |>
+  e_title("Eventos 2º SEM", "NJC")
+  
+
+```
+
+
+```{r setores_NJC, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+
+diagnostico_cd_EVENTOS_NJC <- read_csv("data/diagnostico_cd - EVENTOS_NJC.csv", 
+                                   col_names = FALSE, col_types = cols(X2 = col_date(format = "%d/%m/%Y")))
+
+diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos = as.factor(X3))
+#diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos = unclass(eventos))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(CD = ifelse(eventos=="CD",1,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(G = ifelse(eventos=="G",2,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(IA = ifelse(eventos=="IA",3,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(OFICINA = ifelse(eventos=="OFICINA",4,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PAL = ifelse(eventos=="PAL",5,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PG = ifelse(eventos=="PG",6,NA))
+diagnostico_cd_EVENTOS_NJC %<>% mutate(PI = ifelse(eventos=="PI",7,NA))
+
+
+
+diagnostico_cd_EVENTOS_NJC <- as.data.frame(diagnostico_cd_EVENTOS_NJC)
+row.names(diagnostico_cd_EVENTOS_NJC) <- as.vector(paste(diagnostico_cd_EVENTOS_NJC$X3,seq(1:length(diagnostico_cd_EVENTOS_NJC$X3))))
+
+diagnostico_cd_EVENTOS_NJC <- tibble::as_tibble(diagnostico_cd_EVENTOS_NJC)
+
+
+diagnostico_cd_EVENTOS_NJC %<>% mutate(eventos_ = as.numeric(eventos))
+
+diagnostico_cd_EVENTOS_NJC %>% 
+  arrange(eventos) %>% 
+  group_by(X3) %>% 
+  filter(X3 %in% c("CD","IA","OFICINA","PAL","PG","PI")) %>% 
+  summarise(n = n())  %>% 
+  head() |> 
+  e_charts(X3) |> 
+  e_color(c("#4a82a8","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |> 
+  e_pie(n)
+
+# remocao da cor ,"#fed26e" pois não tem "G"
+```
 
 
 
@@ -141,34 +238,43 @@ diagnostico_cd_EVENTOS %>%
 ## Introdução
 
 A disciplina de introdução à ciência de dados 
-é constituída de um propósito transformador do 
-estudante no qual ele é aproximado do universo 
+é constituída de um propósito transformador, 
+aproximar estudantes e escola do universo 
 dos dados de maneira a se apropriar dos principais 
 dados, sistemas de informação e tomada de decisões 
 no contexto local de um grupo de discentes, 
-docentes, comunidade escolar e de bairro. Coordenada 
-por uma equipe da universidade e operada 
-num contexto à distância, são revelados 
-neste texto as principais estratégias 
-e insights resultados da promoção do encontro destes 
+docentes, comunidade escolar e de bairro. 
+
+Coordenada por uma equipe da universidade e operada 
+num contexto à distância, neste relatório são reveladas 
+ as principais estratégias 
+e **insights** resultado da promoção do encontro destes 
 vários atores. Esta disciplina não é uma ilha, 
 em paralelo a sua execução são realizadas 
 atividades de protagonismo racial, social e de gênero, 
 práticas investigativas e inteligência artificial. 
-Estes temas tão atuais, tangênciam os propósitos 
+Estes temas tão atuais, tangenciam os propósitos 
 das ciências de dados sendo esta um mecanismos 
 de aperfeiçoamento das outras ciências. Uma rede 
 de colaboradores palestrantes também 
 enriqueceram o repertório de todos os atores que 
 participaram o projeto tornando a
-execução da disciplian de ciência de dados uma atividade 
+execução da discipliana de ciência de dados uma atividade 
 punjante e transformadora do contexto social ao 
 qual pertencem estes jovens cientistas.
 
+A seguir são detacadas as principais experiências 
+vivenciadas com os estudantes participantes 
+do projeto Ciência de Dados na Educação Pública 
+no contexto desta disciplina. Foram 
+realizados com os Jovens Cientistas (JC) 
+11 encontros dedicados apenas para ciência de dados. 
+Parte desses encontros é resultado da proposição de 
+um tema em 2 dias diferentes, sendo o restante 
+constituída apenas de um encontro, contudo 
+guiado por retornos via whatsapp.  
 
-
-
-## Introdução à Ciência de Dados (Turma 1)
+## Introdução à Ciência de Dados (Turma 1) {#encontro1}
 
 
 ### Relato do encontro
@@ -262,14 +368,14 @@ Relato dos estudantes por audio:
 Ao se explorar ideias mais complexas como a operação do sistema de recomendações baseado no seu perfil de redes sociais, independemtemente do aparelho em uso, eles não demosntraram familiaridade. Um possível explicação para este fato é a falta de acesso a mais de um aparelho. Em algumas situações os estudantes não tem o parelho apenas para si. 
 
 
-Mecanismo do sistema de recomendações 
+#### Mecanismo do sistema de recomendações 
 
 A instrutora demonstrou a estrutura geral do sistema de recomendações, 
 formada pelas etapas (Usuários, Características dos Vídeos, Pre-processamento dos dados, 
 Análise dos dados, Predição, Recomendações, Usuários). 
 
 
-Proposta de atividade em aula
+#### Proposta de atividade em aula
  
  Vamos criar equipes, coletar dados e responder as seguintes perguntas:  
  
@@ -307,7 +413,7 @@ Proposta de atividade em aula
   "protagonismos". 
   
 
-### Proposta de atividade e reencontro
+### Proposta de atividade e reencontro {#encontro2}  
 
 A construção de um formulário foi realizada para completar o ciclo e 
 consolitar o ciclo do entendimento da Ciência de Dados. Um segundo 
@@ -338,7 +444,7 @@ explicar com bastante segurança,
 qualquer área que envolvam dados.  
 
   
-## Encontro sobre Coleta de Dados (Turma 1)
+## Encontro sobre Coleta de Dados (Turma 1) {#encontro3}
   
 
 ### Relato do encontro
@@ -408,7 +514,7 @@ Sendo importante que a principal referência seria o
 uso do ebook de ciência de dados. 
 
 
-## Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1)
+## Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1) {#encontro4}
 
 [encontro 30/03/2021](https://youtu.be/tT6_xB47Hssv)
 
@@ -438,7 +544,7 @@ este viés. Também foi realizada um debate
 a respeito do aproveito de bancos de dados 
 prévios e para quais fins ele foi construído.
 
-### Encontro de visualização de dados
+### Encontro de visualização de dados {#encontro5}
 
 O encontro de visualização de dados utilizou 
 o tema de educação, especificamente 
@@ -488,7 +594,7 @@ Um dos instrutores esclarece que a motivação do uso de
 um gráfico ou outro depende da informação que se pretende 
 comunicar. Também são exploradas as fragilidades dos gráficos. 
 
-## Reencontro de visualização de dados (Turma 1) 
+## Reencontro de visualização de dados (Turma 1) {#encontro6}
 
 Neste [encontro](https://youtu.be/pbioaYwR89U) os conteúdos
 da aula anterior foram revisitados. Porém, devido as 
@@ -524,7 +630,7 @@ raça/cor adotadas pelo IBGE.
   
   
 
-## Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1)
+## Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1) {#encontro7}
 
 
 O [encontro](https://youtu.be/ja7g6Z88E74) discutiu 
@@ -607,7 +713,7 @@ para a discussão a partir dos dados (dados de futebol).
 Adicionalmente, foi ampliada a discusão a respeito de
 correlação positiva, nula e negativa. 
 
-### Proposta de atividades e reencontros 
+### Proposta de atividades e reencontros {#encontro8}  
 
 Ao final do encontro, foi proposta 
 uma atividade que envolvia a medição do comprimento 
@@ -626,7 +732,7 @@ oirientá-los de acordo com suas respectivas
 dificuldades.  
 
 
-## Média e Mediana e Segurança Pública (Turma 1)
+## Média e Mediana e Segurança Pública (Turma 1) {#encontro9}
 
 
 Inicialmente foi realizada uma breve 
@@ -701,7 +807,7 @@ calculassem a mediana, para fortalecer a
 habilidade de cálculo de indicadores.
 
 
-## Pesquisa Amostral - Transporte (Turma 1)
+## Pesquisa Amostral - Transporte (Turma 1) {#encontro10}
 
 Quanto ao tema de pesquisa amostral foi utilizado um texto 
 com o título: **Em Salvador, mulheres não se sentem seguras 
@@ -754,7 +860,7 @@ paras as questões da pesquisa amostral.
 
 
 
-## Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1)
+## Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1) {#encontro11}
 
 
 Dado pelos encontros anteriores, 
