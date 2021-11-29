@@ -10,6 +10,70 @@
 
 
 
+```{r calendar_JCs1, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Jovens Cientistas 
+diagnostico_cd_FREQ_JC <- read_csv("data/diagnostico_cd - FREQ_JC.csv")
+# Novos Jovens Cientistas
+diagnostico_cd_FREQ_NJC <- read_csv("data/diagnostico_cd - FREQ_NJC.csv")
+
+diagnostico_cd_EVENTOS <- read_csv("data/diagnostico_cd - EVENTOS.csv", 
+                                   col_names = FALSE, col_types = cols(X2 = col_date(format = "%d/%m/%Y")))
+
+diagnostico_cd_EVENTOS %<>% mutate(eventos = as.factor(X3))
+#diagnostico_cd_EVENTOS %<>% mutate(eventos = unclass(eventos))
+diagnostico_cd_EVENTOS %<>% mutate(CD = ifelse(eventos=="CD",1,NA))
+diagnostico_cd_EVENTOS %<>% mutate(G = ifelse(eventos=="G",2,NA))
+diagnostico_cd_EVENTOS %<>% mutate(IA = ifelse(eventos=="IA",3,NA))
+diagnostico_cd_EVENTOS %<>% mutate(OFICINA = ifelse(eventos=="OFICINA",4,NA))
+diagnostico_cd_EVENTOS %<>% mutate(PAL = ifelse(eventos=="PAL",5,NA))
+diagnostico_cd_EVENTOS %<>% mutate(PG = ifelse(eventos=="PG",6,NA))
+diagnostico_cd_EVENTOS %<>% mutate(PI = ifelse(eventos=="PI",7,NA))
+
+
+#dflegenda <- data.frame(labels=levels(as.factor(diagnostico_cd_EVENTOS$X3)),
+#                       valores=levels(as.factor(diagnostico_cd_EVENTOS$eventos)))
+diagnostico_cd_EVENTOS <- as.data.frame(diagnostico_cd_EVENTOS)
+row.names(diagnostico_cd_EVENTOS) <- as.vector(paste(diagnostico_cd_EVENTOS$X3,seq(1:length(diagnostico_cd_EVENTOS$X3))))
+
+diagnostico_cd_EVENTOS <- tibble::as_tibble(diagnostico_cd_EVENTOS)
+
+
+diagnostico_cd_EVENTOS %<>% mutate(eventos_ = as.numeric(eventos))
+
+
+diagnostico_cd_EVENTOS %>% arrange(eventos) |>
+  group_by(X3) |>
+  e_charts(X2) |> 
+  e_calendar(range = c("2021-01-01", "2021-06-30")) |>
+#  e_calendar(range = c("2021")) |> 
+  e_heatmap(eventos_, coord_system = "calendar") |>
+  e_color(c("#4a82a8","#fed26e","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
+  e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
+  e_tooltip(trigger = c("item","axis")) |>
+  e_title("Eventos", "Jovens Cientistas")
+  
+  
+diagnostico_cd_EVENTOS %>% arrange(eventos) |>
+  group_by(X3) |>
+  e_charts(X2) |> 
+  e_calendar(range = c("2021-07-01", "2021-12-31")) |>
+#  e_calendar(range = c("2021")) |> 
+  e_heatmap(eventos_, coord_system = "calendar") |>
+  e_color(c("#4a82a8","#fed26e","#7faed2","#a094e1","#dc6f6c","#62acd1","#8bc6d2")) |>
+  e_heatmap(X3, coord_system = "calendar",label = list(normal = list(show = TRUE))) |>
+  e_tooltip(trigger = c("item","axis")) |>
+  e_title("Eventos", "Jovens Cientistas")
+
+
+
+
+```
+
+
+
+
+
 ```{r setores_JC, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 
 # Jovens Cientistas 
@@ -64,6 +128,12 @@ diagnostico_cd_EVENTOS %>%
 
 
 ```
+
+
+
+
+
+
 
 
 
