@@ -254,16 +254,16 @@ em paralelo a sua execução são realizadas
 atividades de protagonismo racial, social e de gênero, 
 práticas investigativas e inteligência artificial. 
 Estes temas tão atuais, tangenciam os propósitos 
-das ciências de dados sendo esta um mecanismos 
-de aperfeiçoamento das outras ciências. Uma rede 
+das ciências de dados,  funcionando como um mecanismo
+de cooperação. Uma rede 
 de colaboradores palestrantes também 
 enriqueceram o repertório de todos os atores que 
-participaram o projeto tornando a
+participaram do projeto, tornando a
 execução da discipliana de ciência de dados uma atividade 
 punjante e transformadora do contexto social ao 
 qual pertencem estes jovens cientistas.
 
-A seguir são detacadas as principais experiências 
+Nas  seções a seguir são destacadas as principais experiências 
 vivenciadas com os estudantes participantes 
 do projeto Ciência de Dados na Educação Pública 
 no contexto desta disciplina. Foram 
@@ -1056,7 +1056,63 @@ kbl(quadro,caption = "Descrição das atividades realizadas pelo
 
 
 
+## Conclusão 
 
+
+O principal estrato do material dos relatos dos encontros 
+de ciências de dados constitui-se dos pilares 
+sobre os quais este projeto se baseou para sua realização. 
+Os estudantes buscam a todo momento caminhos para dialogar 
+sobre suas experiências, sendo elas as mais profundas 
+quanto a desigualdade social. Muito embora 
+isto seja verdade, esse também é o elemento 
+que os posiciona num local de autoridade para tratar 
+destes problemas. Incluímos na nossa pequena trajetória 
+com estes incríveis jovens, informações a respeito 
+de sistemas de redistribuição de renda  e auxílio 
+social, violência contra mulher no Estado da Bahia e a
+perda de mobilidade urbana em Salvador, indicados de 
+segurança. Em resumo, eles conhecem estes elementos
+pelo lado em que os dados não revelam com tanto clareza
+trazendo uma forte base argumentativa. Por outra lado, 
+a Ciência de Dados dá um caminho e clareza para acessar 
+outras visões sobre estes assuntos. Esta ponte 
+é ainda mais reforçada quando trazemos para os encontros 
+as experiências culturais que são ainda mais 
+íntimas a estes estudantes, como a capoeira ou o debate 
+sobre o que são os seus alimentos, seus hábitos e sua 
+saúde. Este entralace entre desigualdade social, 
+escancaradamente revelado nas justificativas
+de faltas dos estudantes participantes do projeto,  
+ emergindo aquilo que é de conhecimento tácito.
+ Também foi alvo de observação do projeto 
+ a necessidade que os estudantes tiveram 
+ de gerenciar o tempo com retorno as aulas 
+ online e depois presencial. Alguns 
+ relataram como o volume de atividades 
+ começaram a intereferir na sua ampla 
+ capacidade de participar de todas as 
+ atividades. 
+Os avanços observados na argumentação de alguns 
+estudantes ao longo dos encontros, revelados 
+na frequente utilização de vocábulos da área 
+contrasta com o que tipicamente se observa 
+nos principais indicadores da educação brasileira. 
+Embora dados recentes revelem o crescimento do IDEB,  
+por exemplo, os indices das escolas participantes 
+estão aquém do que se espera para que o jovem 
+alcance os elementos idealizados como uma boa educação.  
+Por todo o contexto complexo da realização das atividades
+durante a pandemia aliado as dificuldades relatadas pelos 
+estudantes, a frequente participação e a exitosa realização 
+das avaliações do projeto demonstram que é possível 
+alcançar resultados neste tecido de interface entre tantos 
+atores num momento da história que a tecnologia digital 
+tem que ser planejado para evitar mais um braço de desigualdade. 
+
+
+
+ 
 
 
 
