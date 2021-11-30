@@ -10,9 +10,131 @@ de soluções para problemas da escola e comunidade local com o auxílio da inte
 permitindo um contato direto com sua realidade e desmistificando a complexidade das tecnologias 
 envolvidas nessa área. 
 
-
-
 ## Introdução à Inteligência Artificial 
 
+O encontro foi realizado com uma proposta inicial 
+da ideia de Inteligência Artificial (IA) por meio de 
+diálogo, no qual os estudantes foram 
+estimulados a ter a primeira noção 
+sobre o tema e compreender o seu campo aplicação. 
+
+Alguns estudantes reveleram o seu desconhecimento sobre o tema. 
+O instrutor aproveitou uma atividade lúdica, de cunho experimental, 
+interativo e individual para experimentar o uso desse tipo de IA. 
+Trata-se de um recurso do google 
+que solicita que você utilize os dedos para desenhar
+numa lousa *touch screen* a partir do fornecimento de 
+uma palavra chave de objetos como mesa, relógio, carro,
+flechas, barcos ou de pessoas e animais. O link dessa 
+ferramenta ([Quick Draw!](https://quickdraw.withgoogle.com/))
+foi disponibilizado aos estudantes. A página 
+faz uma provocação ao usuário,
+
+**"Será que uma rede neural consegue aprender a reconhecer seus desenhos?"**, 
+
+a partir desse texto, o instrutor mergulha em mais 
+provocações aos estudantes, explorando a ideia da palavra neural
+e sua inspiração no campo da biologia. 
+É discutida a capacidade da máquina aprender, ainda 
+sem relativizar a relação entre a inteligência humana e 
+de máquina. Então é sugerido o teste da ferramenta 
+para o que estudante possa avaliar se fato a máquina 
+pode ou não aprender com os desenhos de uma pessoa. 
+Cada estudante com seu link foi submetido a palavras 
+diferentes de forma automática pela ferramenta e 
+tiveram 20 segundos para desenhar cada proposta. 
+A medida que o desenho é realizado e você confirma 
+que a ferramenta acertou, a rede neural 
+recebe um reforço pela confirmação do acerto. 
+Essa dinâmica  foi proposta como uma ideia 
+de diversão, de jogo. Foi demonstrado aos 
+estudantes que os desenhos que  a rede neural 
+não conseguiu adivinhar pode ainda 
+ser estudado. Assim, a partir 
+dessa análise o estudante começa a compreender 
+que há um grande banco de imagens de referência 
+que a ferramenta utiliza para tentar adivinhar
+e que ela usa uma análise de semelhança 
+para reconhecer qual é o objeto idealizado 
+por trás do esboço feito pelo usuário. Um esboço 
+com pouco especificidade pode gerar confusão para 
+a rede neural. 
+Em seguida, foi explicado que a máquina precisa 
+de um conjunto de exemplos para aprender 
+o que são os objetos e diante da apresentação 
+de vários exemplos parecidos temos um certo limite 
+para reconhecer um objeto. 
+O instrutor ainda provoca o exercício de demonstrar 
+esta atividade para algum parente e questioná-lo 
+se é uma pessoa que está adivinhando ou máquina. 
+
+Neste ponto do encontro os estudantes ficaram 
+mais abertos a interação, relataram 
+a ideia de que em alguns jogos há um robô 
+inteligente competindo contra eles. Outra 
+estudante espontaneamente traz a palavra 
+algorítimo para o diálogo, revelando 
+a conexão da ideia do aprendizado de máquina
+a uma série de regras e procedimentos 
+que mimetizam uma forma de aprendizado. 
+
+Ao final desta etapa, foi proposto 
+que cada estudante indicasse 
+o número de acertos que a ferramenta 
+alcançou, utilizando uma   ferramenta 
+do [slido](slido.com)  que centraliza as respostas  
+e constrói um histograma. A partir deste conjunto 
+os estudantes foram estimulados a discutir
+por uma perspectiva estatística 
+sobre a capacidade da máquina de  
+inferir a definição do desenho por meio
+do esboço. 
+
+É importante salientar que este pequeno 
+experimento promove aos estudante 
+uma visão completa de aprendizado 
+supervisionado, ainda que não tenha 
+permeado por conteúdos matemáticos e estatísticos1
+avançados. Apenas a interface, a ideia de comparação, 
+similiaridade , reconhecimento e pouco de analogia 
+ao comportamento de aprendizado biológico, permitiram 
+que o estudante desenvolvesse esses elementos cognitivos 
+da inteligência artificial. 
 
 
+Depois de ter experimentado a ferramenta os estudantes 
+começaram a escrever no chat porque a rede neural acerta ou erra:
+
+ - "Ela acerta porque já viu o desenho antes!". 
+ - "Erra porque o desenho não foi bem feito!". 
+ - "Ela erra porque não tem conhecimento sobre aquilo que foi demonstrado!"
+ 
+ O instrutor explorou um dos desenhos, mostrando que para que um determinado 
+ desenho fosse reconhecido era necessário que ele mantivesse características 
+ presentes nos desenhos que compõem o banco de imagens de referência 
+ da rede neural. Também foi demonstrado que se algumas características fogem 
+ do padrão, mas se assemelham a outro objeto pode levar a classificação 
+ equivocada do objeto, também percebido anteriormente por uam das estudantes.
+ 
+ A medida que o encontro evoluiu, o vocabulário de área de inteligência artificial 
+ foi sendo introduzido e argumentação dos estudantes começou a ser baseada 
+ nestes termos. 
+ 
+ O instrututor ainda destaca que para uma imagem pertencer ao banco de imagens 
+ de referência é necessário que muitas pessoas tenham desenhado de forma 
+ similar, o que torna esta imagem elegível ao banco de dados.
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Um dos critérios 
+da ferramenta é que você use apenas 20 segundos 
+para fazer 
