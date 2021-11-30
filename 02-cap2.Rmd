@@ -1,0 +1,18 @@
+# Relatório de Inteligência Artificial 
+
+
+A disciplina "Inteligência artificial, a divertida mente das máquinas" imerge no universo da 
+inteligência artificial através da experimentação e interação com ferramentas gratuitas e de fácil 
+acesso. Sendo assim, o ensino-aprendizagem é conduzido de maneira lúdica com a confecção e interação 
+com jogos e algoritmos baseados nos conceitos de inteligência artificial presentes nos dias atuais. 
+Para tanto, propõe-se a estimulação do senso crítico e investigativo dos alunos através da proposição 
+de soluções para problemas da escola e comunidade local com o auxílio da inteligência artificial, 
+permitindo um contato direto com sua realidade e desmistificando a complexidade das tecnologias 
+envolvidas nessa área. 
+
+
+
+## Introdução à Inteligência Artificial 
+
+
+
