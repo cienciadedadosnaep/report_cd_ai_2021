@@ -151,11 +151,22 @@ começaram a escrever no chat porque a rede neural acerta ou erra:
  
  **Aprendizagem de máquina basea-se na capacidade de aprender com os dados.**
  
- Finalmente, por meio [slido](slido.com) os estudantes são estimulados a
+ Ainda nesta etapa, por meio [slido](slido.com), os estudantes foram estimulados a
  indicar  palavras para gerar  nuvem de palavras a respeito das
  aplicações de IA. Algumas palavras escolhidas pelos estudantes 
  chamaram atenção como "Celular", "Redes Sociais", "Facebook", "Youtube", "Netflix" e 
  "Intagram", "Xbox" e "Internet". Devido ao universo de palavras, as questões 
  sobre o sistema de recomendações emergiram, de forma similar a discussão gerada 
- na discipliana de Ciência de  Dados. 
+ na discipliana de Ciência de  Dados. O  instrututor ainda comenta que as 50 milhões do Google  
+ estão disponíveis para o desenvolvimento de variadas aplicações. 
+ 
+ 
+ A última demonstração do encontro consistiu na apresentação do 
+ [Scratch](hackeduca.github.io) numa versão mais avançada que aquele experimentada 
+ pelos estudantes no ano anterior. O instrutor demonstrou alguns ambientes e  
+ funcionalidades do Scratch. Especialmente foi apresentado a possibilidade 
+ de desenvolver uma aplicação de IA utilizando o   *TensorFlow K-NN*
+ sendo a atividade foco do encontro de retomada da próxima aula.
+ 
+ 
  
