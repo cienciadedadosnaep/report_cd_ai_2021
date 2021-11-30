@@ -971,7 +971,7 @@ partes.
 
 
 
-## Relatório
+## Tabela resumo de habilidades dos encontros
 
 
 ```{r quadrohab, echo=FALSE, message=FALSE, warning=FALSE}

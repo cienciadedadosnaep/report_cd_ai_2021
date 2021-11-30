@@ -61,6 +61,11 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/echarts4r-4.8.0/echarts-en.min.js"></script>
+<script src="libs/echarts4r-4.8.0/ecStat.min.js"></script>
+<script src="libs/echarts4r-4.8.0/dataTool.min.js"></script>
+<script src="libs/echarts4r-binding-0.4.2/echarts4r.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
@@ -83,41 +88,47 @@
 <li class="toc-logo"><a href="./"><img src="logo/logotipo_transparente_baixa.png", width="250" height="250"></a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preambulo</a></li>
 <li class="chapter" data-level="1" data-path="cap1.html"><a href="cap1.html"><i class="fa fa-check"></i><b>1</b> Relatório - Ciência de Dados</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="cap1.html"><a href="cap1.html#introdução"><i class="fa fa-check"></i><b>1.1</b> Introdução</a></li>
-<li class="chapter" data-level="1.2" data-path="cap1.html"><a href="cap1.html#introdução-à-ciência-de-dados-turma-1"><i class="fa fa-check"></i><b>1.2</b> Introdução à Ciência de Dados (Turma 1)</a>
+<li class="chapter" data-level="1.1" data-path="cap1.html"><a href="cap1.html#informações-gerais"><i class="fa fa-check"></i><b>1.1</b> Informações gerais</a>
 <ul>
-<li class="chapter" data-level="1.2.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro"><i class="fa fa-check"></i><b>1.2.1</b> Relato do encontro</a></li>
-<li class="chapter" data-level="1.2.2" data-path="cap1.html"><a href="cap1.html#proposta-de-atividade-e-reencontro"><i class="fa fa-check"></i><b>1.2.2</b> Proposta de atividade e reencontro</a></li>
+<li class="chapter" data-level="1.1.1" data-path="cap1.html"><a href="cap1.html#eventos-realizados-com-os-jovens-cientistas"><i class="fa fa-check"></i><b>1.1.1</b> Eventos realizados com os jovens cientistas</a></li>
+<li class="chapter" data-level="1.1.2" data-path="cap1.html"><a href="cap1.html#encontro-com-os-novos-jovens-cientistas"><i class="fa fa-check"></i><b>1.1.2</b> Encontro com os novos jovens cientistas</a></li>
 </ul></li>
-<li class="chapter" data-level="1.3" data-path="cap1.html"><a href="cap1.html#encontro-sobre-coleta-de-dados-turma-1"><i class="fa fa-check"></i><b>1.3</b> Encontro sobre Coleta de Dados (Turma 1)</a>
+<li class="chapter" data-level="1.2" data-path="cap1.html"><a href="cap1.html#introdução"><i class="fa fa-check"></i><b>1.2</b> Introdução</a></li>
+<li class="chapter" data-level="1.3" data-path="cap1.html"><a href="cap1.html#encontro1"><i class="fa fa-check"></i><b>1.3</b> Introdução à Ciência de Dados (Turma 1)</a>
 <ul>
-<li class="chapter" data-level="1.3.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-1"><i class="fa fa-check"></i><b>1.3.1</b> Relato do encontro</a></li>
-<li class="chapter" data-level="1.3.2" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros"><i class="fa fa-check"></i><b>1.3.2</b> Proposta de atividades e reencontros</a></li>
+<li class="chapter" data-level="1.3.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro"><i class="fa fa-check"></i><b>1.3.1</b> Relato do encontro</a></li>
+<li class="chapter" data-level="1.3.2" data-path="cap1.html"><a href="cap1.html#encontro2"><i class="fa fa-check"></i><b>1.3.2</b> Proposta de atividade e reencontro</a></li>
 </ul></li>
-<li class="chapter" data-level="1.4" data-path="cap1.html"><a href="cap1.html#reencontro-sobre-base-dos-dados-e-encontro-de-visualização-de-dados-turma-1"><i class="fa fa-check"></i><b>1.4</b> Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1)</a>
+<li class="chapter" data-level="1.4" data-path="cap1.html"><a href="cap1.html#encontro3"><i class="fa fa-check"></i><b>1.4</b> Encontro sobre Coleta de Dados (Turma 1)</a>
 <ul>
-<li class="chapter" data-level="1.4.1" data-path="cap1.html"><a href="cap1.html#relato-do-reencontro"><i class="fa fa-check"></i><b>1.4.1</b> Relato do reencontro</a></li>
-<li class="chapter" data-level="1.4.2" data-path="cap1.html"><a href="cap1.html#encontro-de-visualização-de-dados"><i class="fa fa-check"></i><b>1.4.2</b> Encontro de visualização de dados</a></li>
+<li class="chapter" data-level="1.4.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-1"><i class="fa fa-check"></i><b>1.4.1</b> Relato do encontro</a></li>
+<li class="chapter" data-level="1.4.2" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros"><i class="fa fa-check"></i><b>1.4.2</b> Proposta de atividades e reencontros</a></li>
 </ul></li>
-<li class="chapter" data-level="1.5" data-path="cap1.html"><a href="cap1.html#reencontro-de-visualização-de-dados-turma-1"><i class="fa fa-check"></i><b>1.5</b> Reencontro de visualização de dados (Turma 1)</a>
+<li class="chapter" data-level="1.5" data-path="cap1.html"><a href="cap1.html#encontro4"><i class="fa fa-check"></i><b>1.5</b> Reencontro sobre base dos dados e encontro de visualização de dados (Turma 1)</a>
 <ul>
-<li class="chapter" data-level="1.5.1" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros-1"><i class="fa fa-check"></i><b>1.5.1</b> Proposta de atividades e reencontros</a></li>
+<li class="chapter" data-level="1.5.1" data-path="cap1.html"><a href="cap1.html#relato-do-reencontro"><i class="fa fa-check"></i><b>1.5.1</b> Relato do reencontro</a></li>
+<li class="chapter" data-level="1.5.2" data-path="cap1.html"><a href="cap1.html#encontro5"><i class="fa fa-check"></i><b>1.5.2</b> Encontro de visualização de dados</a></li>
 </ul></li>
-<li class="chapter" data-level="1.6" data-path="cap1.html"><a href="cap1.html#capoeira-esporte-e-liberdade.-correlação-e-causalidade-turma-1"><i class="fa fa-check"></i><b>1.6</b> Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1)</a>
+<li class="chapter" data-level="1.6" data-path="cap1.html"><a href="cap1.html#encontro6"><i class="fa fa-check"></i><b>1.6</b> Reencontro de visualização de dados (Turma 1)</a>
 <ul>
-<li class="chapter" data-level="1.6.1" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros-2"><i class="fa fa-check"></i><b>1.6.1</b> Proposta de atividades e reencontros</a></li>
+<li class="chapter" data-level="1.6.1" data-path="cap1.html"><a href="cap1.html#proposta-de-atividades-e-reencontros-1"><i class="fa fa-check"></i><b>1.6.1</b> Proposta de atividades e reencontros</a></li>
 </ul></li>
-<li class="chapter" data-level="1.7" data-path="cap1.html"><a href="cap1.html#média-e-mediana-e-segurança-pública-turma-1"><i class="fa fa-check"></i><b>1.7</b> Média e Mediana e Segurança Pública (Turma 1)</a></li>
-<li class="chapter" data-level="1.8" data-path="cap1.html"><a href="cap1.html#pesquisa-amostral---transporte-turma-1"><i class="fa fa-check"></i><b>1.8</b> Pesquisa Amostral - Transporte (Turma 1)</a></li>
-<li class="chapter" data-level="1.9" data-path="cap1.html"><a href="cap1.html#saúde-e-probabilidade---pesquisa-nacional-de-saúde-do-escolar-pense-turma-1"><i class="fa fa-check"></i><b>1.9</b> Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1)</a></li>
-<li class="chapter" data-level="1.10" data-path="cap1.html"><a href="cap1.html#introdução-à-ciência-de-dados-turma-2"><i class="fa fa-check"></i><b>1.10</b> Introdução à Ciência de Dados (Turma 2)</a>
+<li class="chapter" data-level="1.7" data-path="cap1.html"><a href="cap1.html#encontro7"><i class="fa fa-check"></i><b>1.7</b> Capoeira, esporte e liberdade. Correlação e causalidade (Turma 1)</a>
 <ul>
-<li class="chapter" data-level="1.10.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-2"><i class="fa fa-check"></i><b>1.10.1</b> Relato do encontro</a></li>
+<li class="chapter" data-level="1.7.1" data-path="cap1.html"><a href="cap1.html#encontro8"><i class="fa fa-check"></i><b>1.7.1</b> Proposta de atividades e reencontros</a></li>
 </ul></li>
-<li class="chapter" data-level="1.11" data-path="cap1.html"><a href="cap1.html#relatório"><i class="fa fa-check"></i><b>1.11</b> Relatório</a></li>
+<li class="chapter" data-level="1.8" data-path="cap1.html"><a href="cap1.html#encontro9"><i class="fa fa-check"></i><b>1.8</b> Média e Mediana e Segurança Pública (Turma 1)</a></li>
+<li class="chapter" data-level="1.9" data-path="cap1.html"><a href="cap1.html#encontro10"><i class="fa fa-check"></i><b>1.9</b> Pesquisa Amostral - Transporte (Turma 1)</a></li>
+<li class="chapter" data-level="1.10" data-path="cap1.html"><a href="cap1.html#encontro11"><i class="fa fa-check"></i><b>1.10</b> Saúde e Probabilidade - Pesquisa Nacional de Saúde do Escolar (PeNSE) (Turma 1)</a></li>
+<li class="chapter" data-level="1.11" data-path="cap1.html"><a href="cap1.html#introdução-à-ciência-de-dados-turma-2"><i class="fa fa-check"></i><b>1.11</b> Introdução à Ciência de Dados (Turma 2)</a>
+<ul>
+<li class="chapter" data-level="1.11.1" data-path="cap1.html"><a href="cap1.html#relato-do-encontro-2"><i class="fa fa-check"></i><b>1.11.1</b> Relato do encontro</a></li>
+</ul></li>
+<li class="chapter" data-level="1.12" data-path="cap1.html"><a href="cap1.html#tabela-resumo-de-habilidades-dos-encontros"><i class="fa fa-check"></i><b>1.12</b> Tabela resumo de habilidades dos encontros</a></li>
+<li class="chapter" data-level="1.13" data-path="cap1.html"><a href="cap1.html#dicussão-e-conclusão"><i class="fa fa-check"></i><b>1.13</b> Dicussão e conclusão</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="http://reconhecendosalvador.ufba.br/"><img src="logo/03_Padrao_Fundo_Transparente.png", width="125" height="40"></a></li>
@@ -153,8 +164,8 @@
 <p class="author"><em>Nicole Príncipe</em></p>
 <p class="date"><em>2021-11-29</em></p>
 </div>
-<div id="prefácio" class="section level1 unnumbered">
-<h1>Prefácio</h1>
+<div id="preambulo" class="section level1 unnumbered">
+<h1>Preambulo</h1>
 
 </div>
             </section>
