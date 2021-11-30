@@ -274,6 +274,26 @@ um tema em 2 dias diferentes, sendo o restante
 constituída apenas de um encontro, contudo 
 guiado por retornos via whatsapp.  
 
+
+## Metodologia 
+
+Os encontros com os estudantes foram realizados de forma online e
+síncrona. As atividades foram realizadas de maneira que favorecessem
+o diálogo entre os participantes. Com o objetivo de desenvolvimento de 
+habilidades ligadas a ciência de dados, como a formulação de perguntas 
+e hipóteses sobre um determinado tema, coleta e organização de dados,
+representação matemática por gráficos e outras visualizações de dados e
+por fim aplicações de elementos matemáticos e estatísticos para síntese 
+de informações que conduzem tomada de decisão entralaçamos temas chave   
+ como educação, saúde, população, transportes etc. Aliado a esta abordagem
+ sempre foram atingindos os temas transversais ligados justiça 
+ social, racial e de gênero por meio de uma estratégias que envolviam 
+ dados desagregados. Todo este cenário promove a emergência das 
+ questões ligadas às humanidades digitais, como o amplo debate 
+ gerado pelo viéses estatísticos. Nas seções a seguir são 
+ apresentados os relatos dos encontros que dão detalhes 
+ destas experiências.
+
 ## Introdução à Ciência de Dados (Turma 1) {#encontro1}
 
 
@@ -283,7 +303,6 @@ Especialmente para o encontro de [Introdução à Ciência de Dados](https://you
 realizado em 19/02/2021 foram notadas as seguintes observações: 
 
 
- - Os encontros foram realizados de forma síncrona. 
  - É importante ressaltar que os jovens cientistas participantes deste encontro ingressaram 
 no projeto Ciências de Dados desde de 2019. Enquanto a equipe de facilitadores é 
 composta de pessoas que ingressaram em 2019 e outra que iniciou em 2020. 
@@ -293,28 +312,35 @@ também em engenharia.
 foram estimulados à leitura prévia  do ebook  
 [Uma introdução gentil à Ciência de Dados](https://bookdown.org/cienciadedadosnaep/ciencia_de_dados/). 
  - Considerando o **background** dos estudantes neste projeto, foi utilizada uma estratégia  
-que para relembrá-los dos principais conceitos entorno da Ciência de Dados, (é recomendável testar este tipo de estratégia com as respectivas ferramentas para 
-que o estudantes possa desenvolver habilidades e vivência no mundo virtual e síncrono). 
+ de **brainstorm** pela construção de uma nuvem de palavras usando uma ferramenta web, 
+assim, foram estimulados a relembrar dos principais conceitos entorno da Ciência de Dados 
+(recomenda-se a realização de testes prévios deste tipo de estratégia 
+com as respectivas ferramentas, para que os estudantes possam desenvolver
+habilidades e uma boa experiência no mundo virtual). 
+
 O diálogo no início da aula, o envio de **cards** pelos mecanismos de comunicação podem 
-promover as lembraças dos estudantes. O resultado desta atividade não acaba apenas com o gráfico 
+promover as lembraças dos estudantes sobre o universo da disciplina. 
+Naturalmente, o resultado desta atividade não acaba apenas com o gráfico 
 que contem as várias palavras. É necessário que os estudantes se envolvam na análise desta 
 informação.  Dessa maneira,  ao serem  impelidos a se debruçar sobre este processo, realizam 
-a análise gráfica, uma das etapas desta ciência que seu cerne é o dado. Ao se deparar sobre os dados 
-um dos instrutores ao longo do encontro os provocou a refletir quais das palavras daquela
-nuvem seria a de mais frequência entre aquelas fornecidas pelos próprios estudantes. 
-Uma das estudantes rapidamente identificou e o instrututor completou a análise, explicando 
-a distribuição e dimensão das palavras para todo o público alcançasse um aproveitamento 
-próximo desta etapa do encontro. Em resumo, os estudante destacaram a própria "Ciência de Dados" 
+a análise gráfica, uma das etapas desta ciência que seu cerne é o dado. 
+Uma vez alcançado a visualização da nuvem de palavras, um dos instrutores  
+estimulou o debate sobre quais das palavras daquela
+nuvem seria a de maior frequência entre aquelas fornecidas pelos próprios estudantes. 
+Uma das estudantes rapidamente a identificou e o instrututor completou a análise, explicando 
+a lógica daquela visualização, dada pela distribuição e dimensão das palavras,  para que 
+todo o público alcançasse um aproveitamento 
+similar nesta etapa do encontro. 
+Em resumo, os estudante destacaram a própria "Ciência de Dados" 
 como expressão ou palavra da qual mais lembravam, porém, outras palavras interessntes surgiram 
 como "Big Data", "Insight", "gráficos", "medianas" etc. Contudo, a participação 
-no chat do google meet não foi tão expressiva até esta etapa. Mas alguns elementos 
+no chat do google meet não foi tão expressiva até esta etapa. Apesar disso, alguns elementos 
 foram extraídos dessa etapa, como o fato de uma das estudantes fazer o relato sobre estar 
-familiarizada com este tipo de visualização pois assistiu no programa de televisão de 
+familiarizada com este tipo de visualização, pois assistiu no programa de televisão de 
 "Fátima Bernardes", evidenciando a percolação do uso de informações por outros mecanismos 
-que não acadêmicos [EXPLORAR].
+que não acadêmicos.
 
 
-COLOCAR FIGURA DA NUVEM AQUI
 
  - Antes deste encontro os estudantes tiveram uma palestra na qual viram visualização 
  de dados aplicados a análise dos dados de irradiância solar. 
@@ -365,7 +391,7 @@ Relato dos estudantes por audio:
   - Uma das estudantes diz que o youtube faz recomendações baseado naquilo que já assistimos e 
   demonstra familiaridade ao exemplificar o caso de vídeos de *coaching* quando se pesquisa um tem associado como *empreendedorismo*. 
   
-Ao se explorar ideias mais complexas como a operação do sistema de recomendações baseado no seu perfil de redes sociais, independemtemente do aparelho em uso, eles não demosntraram familiaridade. Um possível explicação para este fato é a falta de acesso a mais de um aparelho. Em algumas situações os estudantes não tem o parelho apenas para si. 
+Ao se explorar ideias mais complexas como a operação do sistema de recomendações baseado no seu perfil de redes sociais, independemtemente do aparelho em uso, eles não demonstraram familiaridade. Um possível explicação para este fato é a falta de acesso a mais de um aparelho. Em algumas situações os estudantes não tem o parelho apenas para si. 
 
 
 #### Mecanismo do sistema de recomendações 
@@ -416,10 +442,9 @@ Análise dos dados, Predição, Recomendações, Usuários).
 ### Proposta de atividade e reencontro {#encontro2}  
 
 A construção de um formulário foi realizada para completar o ciclo e 
-consolitar o ciclo do entendimento da Ciência de Dados. Um segundo 
-encontro foi utilizado para debater as atividades além da proposição das
-atividades. Conceitos essenciais como ciclo  de dados, coleta de dados, 
-*insights* etc. 
+consolitar  o entendimento da abordagem metodológica da Ciência de Dados. 
+Um segundo encontro foi utilizado para debater as atividades que 
+envolviam conceitos essenciais como ciclo  de dados, coleta de dados, *insights* etc. 
 
 Neste [encontro 05/03/2021](https://youtu.be/v--UCfc3OQQ) desenvolvemos 
 um sistemas de grupos que eram responsáveis pela elaboração de 3
@@ -434,7 +459,7 @@ das perguntas quanto aqueles que decidiram respondê-las.
 Os colegas interagiram, tiveram dúvidas e espontaneamente  
 cooperaram uns com os outros. Explicando os mecanismos 
 de recomendações e preferências, relataram novamente 
-experiências com planbos de celulares, o que assistiram 
+experiências com planos de celulares, o que assistiram 
 em programas de canais de televisão a respeito sobre o sistema 
 social da internet. Eles estavam atentos sobre a assinatura dos
 termos e condições utilizados na entrada de redes sociais e
@@ -454,18 +479,21 @@ que discutiu uma das etapas
 ciclo de dados, a coleta de dados. 
 A entrata neste tema exigiu a exploração 
 dos conceitos básicos de estruturação de dados. 
-Portanto, foi explorado com os estudantes 
-as diferentes formas como os dados são  
-encontrados, como estruturados e não estruturados. 
+Portanto, estimulamos um caminho no qual os estudantes 
+pudessem pensar sobre as diferentes formas como os dados são  
+encontrados, por exemplo, como estruturados e não estruturados, 
+ categóricos, numéricos, discretos ou contínuos etc. 
 Motivados pela  necessidade de maior atuação 
 dos estudantes, para que as perguntas e 
-formulações partissem dos estudantes a estrutura 
+formulações partissem dos estudantes, a estrutura 
 dos encontros passou para um modelo de dinâmicas. 
 
 Esta etapa envolvia a coleta de dados
 conduzidas por uma estrutura prévia 
 que estavam pautadas no tema "Família". 
-**[Família],[Raça/Cor],[Quantidade de filhos],Quantidade de animais de estimação]** 
+Inicalmente foi indicado um conjunto de variáveis, 
+**[Família],[Raça/Cor],[Quantidade de filhos],[Quantidade de animais de estimação]**,
+para o desenvolvimento da atividade, contudo não limitada a esta lista.
 
 Nesta atividade os estudantes de cada grupo coletaram os dados e 
 em cada linha preencheram as informações 
@@ -481,10 +509,8 @@ havia a compreensão que sua família é mista.
 Esta capacidade de reflexão surge com a
 proposta de atividades dinâmicas como esta. 
 Por outro lado, para trabalhar 
-habilidades específicas é necessário 
-aperfeiçoar esta atividade para os estudantes 
-possam alcançar melhor desenvolvimento de 
-atividades e compor suas competências. 
+habilidades específicas, é necessário que esta dinâmica seja
+aperfeiçoada.
 
 Cada grupo apresentou seus resultados, 
 sendo que os instruturores direcionavam 
