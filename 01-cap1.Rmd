@@ -600,7 +600,7 @@ o comportamento do número de inscritos,
 exatamente oposto ao senso comum, segundo
 a resposta dos próprios estudantes.
 
-Em seguida, a discussão é conduzido aos problemas 
+Em seguida, a discussão é conduzida aos problemas 
 de pessoas que tem dificuldade de acesso a 
 computadores e as implicações na realização da 
 prova do ENEM. Nesta etapa foi explorado
@@ -618,21 +618,22 @@ demonstraram conhecimento prévio sobre este conteúdo.
 
 Um dos instrutores esclarece que a motivação do uso de 
 um gráfico ou outro depende da informação que se pretende 
-comunicar. Também são exploradas as fragilidades dos gráficos. 
+comunicar. Também são exploradas as fragilidades dos gráficos
+para determinados conjuntos de dados. 
 
 ## Reencontro de visualização de dados (Turma 1) {#encontro6}
 
 Neste [encontro](https://youtu.be/pbioaYwR89U) os conteúdos
 da aula anterior foram revisitados. Porém, devido as 
 dificuldades encontradas pelos estudantes no cálculo
-de frações foi utilizado um recurso de lousa matemática 
+de frações, foi utilizado um recurso de lousa matemática 
 [Mathigon](pt.mathigon.org) que contém elementos geométricos, 
 recursos que simulam realidades físicas como balanças, 
 dados ou sistemas de cartas.
 
 A apresentação do recurso digital prendeu um pouco mais 
-a atenção dos estudantes além de melhorar a participação e
-compreesão sobre as ideias de frações, fundamentais para 
+a atenção dos estudantes, além de melhorar a participação e
+compreensão sobre as ideias de frações, fundamentais para 
 aprofundar na análise de gráficos de setores. Uma das 
 estudantes compreendeu detalhadamente o conceito de 
 frações e sua ligação com o gráfico de setores, verbalizando 
@@ -646,10 +647,10 @@ legenda e títulos.
 ### Proposta de atividades e reencontros 
   
 Numa atividades proposta através de um formulário 
-web os estudantes foram estimulados a responder 
-informações sobre frações, gráficos de barras  e
+*web* os estudantes foram estimulados a responder 
+questões sobre frações, gráficos de barras  e
 gráficos de setores. Além disso, foi uma nova 
-oportunidade para que os estudantes pudessem familiarizar 
+oportunidade para que os estudantes pudessem se familiarizar 
 com informações transversais ao tema do ENEM, 
 como a compreensão a respeito sobre os recortes de 
 raça/cor adotadas pelo IBGE.
@@ -687,7 +688,7 @@ através de vários vocábulos como:
  e um segundo que explora as relações de som, roda, instrumentos,
  movimento e a geometria com ideia de roda. Nesta etapa a
  participação dos estudantes se tornou mais intensa, 
- devido a aproximação com a capoeira conhecendo 
+ devido a aproximação com a capoeira, conhecendo 
  desde os movimentos da capoeira e detalhes 
  especiais como o nome de instrumentos como 
  atabaque, berimbau etc. 
@@ -788,9 +789,10 @@ de medição.
 
 O tema de segurança pública tão caro aos 
 estudantes do projeto, foi apresentado
-numa das suas linhas de recorte racial, 
+numa das suas linhas de recorte racial
+e gênero, 
 especialmente por meio de dados de 
-ocorrências de crimes contra a mulher. 
+ocorrências de crimes contra a mulher negra. 
 
 A estratégia utilizada se constituiu num vídeo de 3 min 
 que explicava brevemente os principais 
@@ -849,13 +851,13 @@ Eles foram relembrados como a pesquisa amostral faz parte
 do ciclo dos dados apresentado no primeiro encontro. 
 
 Dessa forma, foram estimulados a pensar sobre quais foram 
-as estratégias utilizadas para lacançar um bom resultado 
+as estratégias utilizadas para alcançar um bom resultado 
 dessa pesquisa. Gradativamente, ao longo do rico debate 
-com os estudantes, sendo apresenta todas as etapas 
+com os estudantes, foram apresentas todas as etapas 
 de planejamento e execução da pesquisa. Os 
 estudantes foram bem assertivos na compreensão 
 dos viéses (de seleção, medição, questão e de não respondentes)
-gerados pela mã conduta da pesquisa amostral. 
+gerados pela má conduta da pesquisa amostral. 
 Também foi discutido a importância do tamanho da amostra e
 a forma como a pesquisa foi realizada. Mostramos
 como dados de instituições públicas foram 
@@ -863,9 +865,9 @@ utilizados para ajudar na contextualização.
 
 Os dados dos resultados da pesquisa são apresentados  
 por meio de gráfico de setores e barras dentro 
-de infográficos. Esta forma de apresentaçãoi traz um 
-benefício ao estudante na compreensão do dado 
-contextualizado, suportado num discussão. 
+de infográficos. Esta forma de apresentação  
+beneficia a compreensão do dado 
+contextualizado, suportado numa ampla discussão. 
 À medida que este debate avançou, algumas 
 questões tornaram-se emergentes e os 
 estudantes reconheceram a possibilidade 
@@ -873,14 +875,14 @@ de serem vítimas de situações presentes no
 texto. 
 
 As fragilidades da pesquisa também foram exploradas 
-ao longo da discussão, estimulando ao grupo 
-a reflexão sobre a qualidade do dado na formação da
-opinião. Seguindo por uma breve apresentação das políticas públicas 
+ao longo da discussão, estimulando  
+a reflexão do grupo sobre a qualidade do dado na formação da
+opinião. Finalmente, seguimos por uma breve apresentação das políticas públicas 
 para auxiliar na solução destes problemas. 
 
 Na conclusão do encontro foi proposta uma atividade 
 que ajudava na leitura dirigida da reportagem que traz o foco
-paras as questões da pesquisa amostral.  
+para as questões da pesquisa amostral.  
 
 
 
@@ -905,8 +907,8 @@ da realidade vivida pelos estudantes. Utilizamos
 os dados da Pesquisa Nacional da Saúde do Escolar (PeNSE)
 como estratégia. As perguntas do PeNSE são adequadamente 
 planejadas para o público dos anos finais do ensino 
-fundamental e ensino médio tornou efetivo 
-o desenvolvimento das atividades do projeto. 
+fundamental e ensino médio o que facilitou o efetivo
+desenvolvimento das atividades do projeto. 
 
 O vídeo de promoção da pesquisa foi proposto aos 
 estudantes para uma reflexão prévia. Os dados 
@@ -934,10 +936,10 @@ consolidação dos conceitos
 apresentados neste encontro. 
 
 
-Os estudantes também foram estimulados 
+Também foram estimulados 
 durante o encontro 
-a leitura de dois trechos de teses que se pautaram 
-na PeNSE. Nesta etapa do curso os estudantes tem mostrado
+a leitura de dois trechos de teses que usuram resultados  
+da PeNSE. Nesta etapa do encontro, os estudantes mostraram
 elementos de argumentação baseado 
 nas informações precedentes do curso. Também 
 faz parte do vocabulário dos estudantes os 
@@ -952,7 +954,7 @@ aos temas de protagonismo racial, social e de gênero.
 
 A Turma 2, que iniciou as atividades no segundo 
 semestre de 2021 teve um número de encontros 
-bem menos que a Turma 1. Diferente da 
+bem menor que a Turma 1. Diferente da 
 Turma 1, que teve a experiência com muitos 
 encontros com a equipe desde 2020 e em alguns 
 casos que tinham experiências presenciais 
@@ -974,7 +976,7 @@ enfrentado ao ir para a escola, como
 eles usariam as informações de um celular para apoiá-los 
 em decisões em problemas  reais. 
 
-A estratégia de demonstrar a previsão do tempo coloca 
+A estratégia de demonstrar a previsão do tempo colocou 
 um contexto no qual as informações são resultado 
 de um grande processo de análise de dados, modelagem, 
 apresentação e tomada de decisões. Problemas emergentes 
@@ -983,8 +985,8 @@ deram mais elementos para o debate e ajudou na
 definição das ciências de dados. 
 
 A qualidade da participação dos estudantes foi em média 
-muito diferenciada, sendo necessário e uma oportunidade 
-de pesquisa as diferenças entre os diferentes grupos  
+muito diferenciada, sendo necessário e também uma oportunidade 
+de pesquisa, a compreensão das diferenças entre os grupos  
 de participantes de projetos similares a este. 
 
 Com muita facilidade foi possível conectar o 
@@ -999,6 +1001,9 @@ partes.
 
 ## Tabela resumo de habilidades dos encontros
 
+Nesta seção resumimos  principais conceitos, habilidades e 
+temas avaliados ao longo deste ano. Permitindo que 
+seja alcançada uma ideia destes encontros num único olhar.
 
 ```{r quadrohab, echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
@@ -1101,13 +1106,13 @@ de sistemas de redistribuição de renda  e auxílio
 social, violência contra mulher no Estado da Bahia e a
 perda de mobilidade urbana em Salvador e indicadores de 
 segurança com recortes de gênero e raça/cor. 
-Em resumo, eles reconhecem estes elementos
+Em resumo, eles reconhecem estes temas
 pelo lado em que os dados não revelam com tanto clareza,
 trazendo uma forte base argumentativa. Por outra lado, 
 a Ciência de Dados dá um caminho diferente, para acessar 
 outras visões sobre estes assuntos. Esta ponte 
 é ainda mais reforçada quando trazemos para os encontros 
-as experiências culturais que são ainda mais 
+ experiências culturais que são ainda mais 
 íntimas a estes estudantes, como a capoeira ou o debate 
 sobre o que são os seus alimentos, seus hábitos e sua 
 saúde. Este entralace entre desigualdade social, 
@@ -1132,16 +1137,16 @@ nos principais indicadores da educação brasileira
 a respeito dos avanços em disciplinas ligadas a 
 área de exatas. 
 Embora dados recentes revelem o crescimento do IDEB,  
-por exemplo, os indices das escolas participantes 
+por exemplo, os índices das escolas participantes 
 estão aquém do que se espera para que o jovem 
 alcance os elementos idealizados como uma boa educação.  
 Por todo o contexto complexo da realização das atividades
 durante a pandemia, aliado às dificuldades relatadas pelos 
 estudantes, a frequente participação e a exitosa realização 
-das avaliações do projeto, demonstram que é possível 
-alcançar resultados neste tecido de interface entre tantos 
+das avaliações do projeto demonstram que é possível 
+alcançar resultados neste tecido de interface entre os diversos 
 atores. Num momento da história que a tecnologia digital 
-tem que ser planejado para evitar mais um braço de desigualdade
-atividades como esta são exemplos de atividades que devem ser 
+tem que ser planejado para evitar mais um braço de desigualdade,
+atividades como esta são exemplos  que devem ser 
 ampliadas para um número maior de estudantes. 
 
