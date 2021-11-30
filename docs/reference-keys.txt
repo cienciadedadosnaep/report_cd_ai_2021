@@ -25,3 +25,4 @@ encontro11
 introdução-à-ciência-de-dados-turma-2
 relato-do-encontro-2
 relatório
+dicussão-e-conclusão

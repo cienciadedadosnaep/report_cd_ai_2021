@@ -1048,6 +1048,8 @@ cod_bncc <- c(
 
 quadro <- data.frame(acoes,subtema,cod_bncc,habilidades)
 
+names(quadro) <- c("Encontros","Tema", "Cód. Habilidade","Descrição")
+
 kbl(quadro,caption = "Descrição das atividades realizadas pelo 
     equipe de Ciência de Dados.")
 
@@ -1056,7 +1058,7 @@ kbl(quadro,caption = "Descrição das atividades realizadas pelo
 
 
 
-## Conclusão 
+## Dicussão e conclusão 
 
 
 O principal estrato do material dos relatos dos encontros 
@@ -1066,16 +1068,17 @@ Os estudantes buscam a todo momento caminhos para dialogar
 sobre suas experiências, sendo elas as mais profundas 
 quanto a desigualdade social. Muito embora 
 isto seja verdade, esse também é o elemento 
-que os posiciona num local de autoridade para tratar 
+que os posicionam num local de autoridade para tratar 
 destes problemas. Incluímos na nossa pequena trajetória 
 com estes incríveis jovens, informações a respeito 
 de sistemas de redistribuição de renda  e auxílio 
 social, violência contra mulher no Estado da Bahia e a
-perda de mobilidade urbana em Salvador, indicados de 
-segurança. Em resumo, eles conhecem estes elementos
-pelo lado em que os dados não revelam com tanto clareza
+perda de mobilidade urbana em Salvador e indicadores de 
+segurança com recortes de gênero e raça/cor. 
+Em resumo, eles reconhecem estes elementos
+pelo lado em que os dados não revelam com tanto clareza,
 trazendo uma forte base argumentativa. Por outra lado, 
-a Ciência de Dados dá um caminho e clareza para acessar 
+a Ciência de Dados dá um caminho diferente, para acessar 
 outras visões sobre estes assuntos. Esta ponte 
 é ainda mais reforçada quando trazemos para os encontros 
 as experiências culturais que são ainda mais 
@@ -1084,10 +1087,12 @@ sobre o que são os seus alimentos, seus hábitos e sua
 saúde. Este entralace entre desigualdade social, 
 escancaradamente revelado nas justificativas
 de faltas dos estudantes participantes do projeto,  
- emergindo aquilo que é de conhecimento tácito.
+ emergem aquilo que é de conhecimento tácito, 
+ a maioria dos jovens de Salvador não estão incluídos 
+ de forma qualificada numa sociedade digitalizada.
  Também foi alvo de observação do projeto 
  a necessidade que os estudantes tiveram 
- de gerenciar o tempo com retorno as aulas 
+ de gerenciar o tempo devido ao  retorno as aulas 
  online e depois presencial. Alguns 
  relataram como o volume de atividades 
  começaram a intereferir na sua ampla 
@@ -1095,32 +1100,22 @@ de faltas dos estudantes participantes do projeto,
  atividades. 
 Os avanços observados na argumentação de alguns 
 estudantes ao longo dos encontros, revelados 
-na frequente utilização de vocábulos da área 
+na frequente utilização de vocábulos da área, 
 contrasta com o que tipicamente se observa 
-nos principais indicadores da educação brasileira. 
+nos principais indicadores da educação brasileira
+a respeito dos avanços em disciplinas ligadas a 
+área de exatas. 
 Embora dados recentes revelem o crescimento do IDEB,  
 por exemplo, os indices das escolas participantes 
 estão aquém do que se espera para que o jovem 
 alcance os elementos idealizados como uma boa educação.  
 Por todo o contexto complexo da realização das atividades
-durante a pandemia aliado as dificuldades relatadas pelos 
+durante a pandemia, aliado às dificuldades relatadas pelos 
 estudantes, a frequente participação e a exitosa realização 
-das avaliações do projeto demonstram que é possível 
+das avaliações do projeto, demonstram que é possível 
 alcançar resultados neste tecido de interface entre tantos 
-atores num momento da história que a tecnologia digital 
-tem que ser planejado para evitar mais um braço de desigualdade. 
+atores. Num momento da história que a tecnologia digital 
+tem que ser planejado para evitar mais um braço de desigualdade
+atividades como esta são exemplos de atividades que devem ser 
+ampliadas para um número maior de estudantes. 
 
-
-
- 
-
-
-
- 
- 
-
-
-
-  
-  
-  
