@@ -155,25 +155,7 @@ começaram a escrever no chat porque a rede neural acerta ou erra:
  indicar  palavras para gerar  nuvem de palavras a respeito das
  aplicações de IA. Algumas palavras escolhidas pelos estudantes 
  chamaram atenção como "Celular", "Redes Sociais", "Facebook", "Youtube", "Netflix" e 
- "Intagram", "Xbox" e "Internet". Devido ao universo de palavras as questões 
- sobre o sistema de recomendações emerge, de forma similar a discussão gerada 
+ "Intagram", "Xbox" e "Internet". Devido ao universo de palavras, as questões 
+ sobre o sistema de recomendações emergiram, de forma similar a discussão gerada 
  na discipliana de Ciência de  Dados. 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-Um dos critérios 
-da ferramenta é que você use apenas 20 segundos 
-para fazer 
