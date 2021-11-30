@@ -162,7 +162,7 @@ começaram a escrever no chat porque a rede neural acerta ou erra:
  
  
  A última demonstração do encontro consistiu na apresentação do 
- [Scratch](hackeduca.github.io) numa versão mais avançada que aquele experimentada 
+ [Scratch](https://hackeduca.github.io/) numa versão mais avançada que aquele experimentada 
  pelos estudantes no ano anterior. O instrutor demonstrou alguns ambientes e  
  funcionalidades do Scratch. Especialmente foi apresentado a possibilidade 
  de desenvolver uma aplicação de IA utilizando o   *TensorFlow K-NN*
