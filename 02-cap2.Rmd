@@ -242,9 +242,20 @@ sobre notícias que são fato ou que são fake.
  ou não *fake news*, os estudantes passaram a notar que o papel de decisão 
  assumidos por eles na primeira etapa do do encontro, agora estava automatizado.
  
- Para demonstrar  o potencial do ferramental de AI que tem potencial 
+ Para demonstrar  o potencial do ferramental de AI que  
  para a produção de *fake news*, foi demonstrado o conceito de "deepfake"
- no qual foi exemplificado pelo app deepface
+ no qual foi exemplificado pelo app deepface. Demonstrando como 
+ pode ser divertido e igualmente arriscado, podendo intereferir na 
+ vida de indivíduos e até mesmo na relação entre países, por exemplo com 
+ a produção de aúdios falsos associados a políticos. 
+ 
+ Para a compreensão do mecanismos de funcionamento destas ferramentas 
+ foi apresentado um diagrama esquemático constituído das principais 
+ etapas: 
+ 
+  -     
+ 
+ 
  
  
  

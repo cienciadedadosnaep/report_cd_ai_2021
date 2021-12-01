@@ -293,6 +293,9 @@ de informações que conduzem tomada de decisão entralaçamos temas chave
  gerado pelo viéses estatísticos. Nas seções a seguir são 
  apresentados os relatos dos encontros que dão detalhes 
  destas experiências.
+ 
+knitr::include_graphics("figuras/diagrama_cd.svg")
+
 
 ## Introdução à Ciência de Dados (Turma 1) {#encontro1}
 
