@@ -162,11 +162,77 @@ começaram a escrever no chat porque a rede neural acerta ou erra:
  
  
  A última demonstração do encontro consistiu na apresentação do 
- [Scratch](https://hackeduca.github.io/) numa versão mais avançada que aquele experimentada 
+ [Scratch](https://hackeduca.github.io/) numa versão mais avançada que aquela experimentada 
  pelos estudantes no ano anterior. O instrutor demonstrou alguns ambientes e  
  funcionalidades do Scratch. Especialmente foi apresentado a possibilidade 
  de desenvolver uma aplicação de IA utilizando o   *TensorFlow K-NN*
  sendo a atividade foco do encontro de retomada da próxima aula.
+ 
+ 
+ 
+ 
+## Fato ou Fake? 
+
+Os avanços tecnológicos e a ampliação do universo de comunicação 
+seja pela mídia jornalística ou redes sociais traz benefícios 
+incontestáveis,  entretanto, o efeito colateral desse amplo acesso
+é o surgimento de mecanismos de produção de notícias falsas. 
+Neste encontro os estudantes foram provocados como a mídia 
+digital está sujeita a estes ataques e como é possível 
+a utilização de inteligência artificial para 
+ajudar no combate deste universo. 
+
+O encontro foi conduzido inicialmente pela elaboração de 
+um jogo operado na plataforma [Kahoot!](https://kahoot.com/), 
+no qual os estudantes foram estimulados a responder 
+sobre notícias que são fato ou que são fake. 
+
+ - Animais de estimação podem transmitir COVID-19 aos humanos.
+ - Por engano mulher rezava  para boneco do "Senhor dos Anéis". 
+ - Pedro Alvarez Cabral descobriu o Brasil.
+ - DNA do homem é $50%$ idêntico ao DNA da Banana.
+ - Participantes de um programa *reality* passam um ano isolados, 
+ mas apenas parte do programa foi exibido.
+ - Medir neurônios pela testa mata neurônios.
+ - Universidade cria museu de memes. 
+ - Usar álcool gel nas mãos para prevenção da COVID-19, 
+ altera o resultado no teste do bafômetro em blitze. 
+ 
+ 
+ Dessa maneira, os estudantes são colocados na posição 
+ de decisão, similar a função que se pretendia 
+ discutir nas etapas posteriores sobre o papel da 
+ inteligência artificial em nos apoiar em decisões 
+ sobre a veracidade de informações da internet ou redes sociais. 
+ 
+ Para auxiliar nesta reflexão foi solicitado aos 
+ estudantes que indicassem quais melhores 
+ práticas para evitar as notícias falsas. Alguns 
+ estudantes indicaram a seguintes práticas para 
+ indicar se é ou não a *fake news*:
+ 
+ - "Procurar se as fontes as fontes são seguras."
+ - "Pesquisar, analisar a fonte."
+ 
+ O instrutor indicou as seguintes práticas:
+ 
+ - erros ortográficos;
+ - concordâncias erradas; 
+ - verificar se as informações desatualizadas;
+ - suspeitar da forma de difusão da informação que são acompanhadas de estímulos de 
+ compartilhamento;
+ - duvidar de notícias alarmistas.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
