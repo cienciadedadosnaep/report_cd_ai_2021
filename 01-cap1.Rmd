@@ -294,7 +294,11 @@ de informações que conduzem tomada de decisão entralaçamos temas chave
  apresentados os relatos dos encontros que dão detalhes 
  destas experiências.
  
-knitr::include_graphics("figuras/diagrama_cd.svg")
+<img src="figuras/diagrama_cd.svg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+
 
 
 ## Introdução à Ciência de Dados (Turma 1) {#encontro1}
