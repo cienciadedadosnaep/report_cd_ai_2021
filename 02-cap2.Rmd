@@ -224,6 +224,35 @@ sobre notícias que são fato ou que são fake.
  - duvidar de notícias alarmistas.
  
  
+ Depois de uma ampla discussão sobre a veracidade de notícias, 
+ foi gerado uma prática no [slido](http://slido.com) que solicitava 
+ quem eram as pessoas conhecidas ou parentes que mais compartilham "fake news".
+ Em geral, "Mãe" e  "Grupo da Família" chamam muito atenção. Na opinião dos 
+ estudantes os pais e avós que não cresceram com uso de tecnologia tem mais 
+ dificuldade em determinar se uma notícia é ou não *fake news*. 
+ Chegaram a conclusão que pessoas com o menor grau de educação tem mais 
+ dificuldade em decidir sobre a veracidade das notícias. Também 
+ foi explorado qual a região do país que mais acreditam em *fake news* 
+ a respeito de COVID-19.
+ 
+ Finalmente, depois de contextualizá-los, foi proposto o debate 
+ sobre a aplicação da inteligência artificial na identificação de *fake news*.
+ Por meio do resultado de uma pesquisa que desenvolveu um aplicação AI
+ que aprende a construir *fake news* para em seguida decidir o que era
+ ou não *fake news*, os estudantes passaram a notar que o papel de decisão 
+ assumidos por eles na primeira etapa do do encontro, agora estava automatizado.
+ 
+ Para demonstrar  o potencial do ferramental de AI que tem potencial 
+ para a produção de *fake news*, foi demonstrado o conceito de "deepfake"
+ no qual foi exemplificado pelo app deepface
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
