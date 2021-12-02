@@ -65,15 +65,7 @@ de informações que conduzem tomada de decisão entralaçamos temas chave
  destas experiências.
  
 <img src="figuras/diagrama_cd_recossa.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-
-
-
-
-
-
-
+     alt="Markdown Monster icon" />
 
 
 
