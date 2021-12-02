@@ -45,6 +45,10 @@ específicas ao universo de linguagem, aprendizado e
 inteligência artificial por meio de ferramentas
 LOGO. 
 
+<img src="figuras/diagrama_IA.png"
+     alt="Markdown Monster icon" />
+
+
 
 ## Tabela de Habilidades e Competências 
 
